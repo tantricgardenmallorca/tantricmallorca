@@ -1,24 +1,5 @@
-import ivonnyImg from '../assets/ivonny.jpg';
-import juanaImg from '../assets/juana.jpg';
-import dulceMariaImg from '../assets/masaje-espalda.jpg';
-
-const MASAJISTAS = [
-  {
-    name: 'Ivonny bonita',
-    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    image: ivonnyImg,
-  },
-  {
-    name: 'Juana banana',
-    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    image: juanaImg,
-  },
-  {
-    name: 'Dulce Maria',
-    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    image: dulceMariaImg,
-  },
-];
+import { Link } from 'react-router-dom';
+import { MASAJISTAS } from '../data/masajistas.js';
 
 export default function Masajistas() {
   return (
@@ -35,18 +16,21 @@ export default function Masajistas() {
         <div className="masajistas-list">
           {MASAJISTAS.map((m, i) => (
             <article
-              key={m.name}
+              key={m.slug}
               className={`masajista${i % 2 === 1 ? ' masajista--reverse' : ''}`}
             >
               <div className="masajista-img">
                 <img src={m.image} alt={m.name} loading="lazy" />
               </div>
-              <div className="masajista-body">
+              <div className="masajista-card">
                 <h3 className="masajista-name">{m.name}</h3>
                 <p className="masajista-desc">{m.desc}</p>
-                <a href="#contacto" className="btn btn-dark masajista-cta">
+                <Link
+                  to={`/masajistas/${m.slug}`}
+                  className="btn btn-dark masajista-cta"
+                >
                   Ver más
-                </a>
+                </Link>
               </div>
             </article>
           ))}

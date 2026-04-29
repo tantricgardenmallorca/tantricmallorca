@@ -1,31 +1,33 @@
+import { Link } from 'react-router-dom';
+
 const LINKS = [
-  ['Nosotros', '#nosotros'],
-  ['Masajes', '#experiencias'],
-  ['Masajistas', '#masajistas'],
-  ['Contacto', '#contacto'],
+  ['Nosotros', '/#nosotros'],
+  ['Masajes', '/#experiencias'],
+  ['Masajistas', '/#masajistas'],
+  ['Contacto', '/#contacto'],
 ];
 
 export default function Nav() {
   return (
     <header className="nav">
       <div className="nav-inner">
-        <a href="#top" className="nav-logo" aria-label="Tantric Mallorca">
+        <Link to="/" className="nav-logo" aria-label="Tantric Mallorca">
           <span className="mark">Tantric</span>
           <span className="sub">Mallorca</span>
-        </a>
+        </Link>
         <nav>
           <ul className="nav-links">
             {LINKS.map(([label, href]) => (
               <li key={label}>
-                <a href={href}>{label}</a>
+                <Link to={href}>{label}</Link>
               </li>
             ))}
           </ul>
         </nav>
         <div className="nav-cta">
-          <a href="#contacto" className="btn btn-dark">
+          <Link to="/#contacto" className="btn btn-dark">
             Reservar
-          </a>
+          </Link>
           <span className="nav-lang" aria-label="Idioma">
             Español
           </span>

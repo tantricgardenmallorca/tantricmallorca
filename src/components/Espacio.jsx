@@ -8,8 +8,9 @@ const TILES = [
   { id: 't1', label: 'Sala principal', image: salaPrincipal },
   { id: 't2', label: 'Pasillo · luz cálida', image: pasilloLuces },
   { id: 't3', label: 'Detalle íntimo', image: detalleIntimo },
-  { id: 't4', label: 'Patio al atardecer', image: patioAtardecer },
+  { id: 't4', label: 'Aceites & ritual', image: pasilloLuces },
   { id: 't5', label: 'Sala de descanso', image: salaDescanso },
+  { id: 't6', label: 'Patio al atardecer', image: patioAtardecer },
 ];
 
 export default function Espacio() {
