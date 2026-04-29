@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# raw image dump — copies live in src/assets/
+images/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

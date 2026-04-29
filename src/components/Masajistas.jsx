@@ -1,18 +1,22 @@
+import ivonnyImg from '../assets/ivonny.jpg';
+import juanaImg from '../assets/juana.jpg';
+import dulceMariaImg from '../assets/masaje-espalda.jpg';
+
 const MASAJISTAS = [
   {
-    name: 'Ivonny',
+    name: 'Ivonny bonita',
     desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    caption: 'Sostiene el espacio con presencia y escucha empática.',
+    image: ivonnyImg,
   },
   {
-    name: 'Juana',
-    desc: 'Especialista en trabajo somático y rituales de pareja.',
-    caption: 'Guía certificada en artes somáticas y tántricas.',
+    name: 'Juana banana',
+    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
+    image: juanaImg,
   },
   {
-    name: 'Lucía',
-    desc: 'Acompaña con tacto consciente y respiración guiada.',
-    caption: 'Más de diez años en cuerpos en busca de descanso.',
+    name: 'Dulce Maria',
+    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
+    image: dulceMariaImg,
   },
 ];
 
@@ -31,12 +35,11 @@ export default function Masajistas() {
         <div className="masajistas-list">
           {MASAJISTAS.map((m, i) => (
             <article
-              key={m.name + i}
+              key={m.name}
               className={`masajista${i % 2 === 1 ? ' masajista--reverse' : ''}`}
             >
-              <div className="masajista-img" aria-hidden="true">
-                <span className="img-label">Imagen</span>
-                <span className="img-foot">{m.caption}</span>
+              <div className="masajista-img">
+                <img src={m.image} alt={m.name} loading="lazy" />
               </div>
               <div className="masajista-body">
                 <h3 className="masajista-name">{m.name}</h3>

@@ -1,29 +1,16 @@
-const TILES = [
-  { id: 't1', label: 'Sala principal' },
-  { id: 't2', label: 'Pasillo · luz cálida' },
-  { id: 't3', label: 'Detalle · aceites' },
-  { id: 't4', label: 'Baño ritual' },
-  { id: 't5', label: 'Patio interior' },
-  { id: 't6', label: 'Sala de descanso' },
-];
+import salaPrincipal from '../assets/masaje-espalda.jpg';
+import pasilloLuces from '../assets/espacio-luces.jpg';
+import detalleIntimo from '../assets/ivonny.jpg';
+import patioAtardecer from '../assets/espacio-patio.jpg';
+import salaDescanso from '../assets/juana.jpg';
 
-function ImageIcon() {
-  return (
-    <svg
-      width="22"
-      height="22"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      aria-hidden="true"
-    >
-      <rect x="3" y="3" width="18" height="18" rx="2" />
-      <circle cx="8.5" cy="8.5" r="1.5" />
-      <path d="m21 15-5-5L5 21" />
-    </svg>
-  );
-}
+const TILES = [
+  { id: 't1', label: 'Sala principal', image: salaPrincipal },
+  { id: 't2', label: 'Pasillo · luz cálida', image: pasilloLuces },
+  { id: 't3', label: 'Detalle íntimo', image: detalleIntimo },
+  { id: 't4', label: 'Patio al atardecer', image: patioAtardecer },
+  { id: 't5', label: 'Sala de descanso', image: salaDescanso },
+];
 
 export default function Espacio() {
   return (
@@ -38,11 +25,8 @@ export default function Espacio() {
 
         <div className="espacio-grid">
           {TILES.map((t) => (
-            <div key={t.id} className={`tile ${t.id}`} aria-label={t.label}>
-              <div className="tile-label">
-                <ImageIcon />
-                <span>{t.label}</span>
-              </div>
+            <div key={t.id} className={`tile ${t.id}`}>
+              <img src={t.image} alt={t.label} loading="lazy" />
             </div>
           ))}
         </div>
