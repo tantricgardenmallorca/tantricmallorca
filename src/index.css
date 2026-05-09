@@ -317,7 +317,6 @@ svg {
 }
 .hero-content {
   position: relative;
-  max-width: 620px;
 }
 .hero h1 {
   font-family: var(--display);
