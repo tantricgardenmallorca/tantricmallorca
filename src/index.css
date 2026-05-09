@@ -1135,3 +1135,282 @@ svg {
     height: 40px;
   }
 }
+
+/* =====================================================================
+   MOBILE RESPONSIVE — additions only, never override desktop layout.
+   All rules here are gated by max-width media queries.
+   ===================================================================== */
+
+/* Compact nav at small widths */
+@media (max-width: 600px) {
+  .nav-inner {
+    gap: 10px;
+    padding: 14px var(--pad);
+  }
+  .nav-logo .mark {
+    font-size: 19px;
+  }
+  .nav-logo .sub {
+    font-size: 9px;
+    letter-spacing: 0.30em;
+  }
+  .nav-cta {
+    gap: 8px;
+  }
+  .nav-cta .btn {
+    padding: 9px 16px;
+    font-size: 13px;
+  }
+  .lang-btn {
+    padding: 5px 9px;
+    gap: 6px;
+  }
+  .lang-short {
+    display: none;
+  }
+  .nav-burger {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+  }
+  /* Mobile menu drawer: bigger touch targets and clearer hierarchy */
+  .nav-mobile {
+    padding: 8px var(--pad) 16px;
+  }
+  .nav-mobile a {
+    padding: 18px 4px;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-mobile a::after {
+    content: '›';
+    font-size: 22px;
+    color: var(--c-mute);
+    line-height: 1;
+  }
+}
+
+/* Hero — tighter spacing, stacked CTAs */
+@media (max-width: 600px) {
+  .hero {
+    padding: 60px 0 72px;
+    min-height: clamp(440px, 70vh, 600px);
+  }
+  .hero h1 {
+    font-size: clamp(28px, 8.5vw, 36px);
+    margin-bottom: 14px;
+  }
+  .hero p {
+    font-size: 13.5px;
+    margin-bottom: 22px;
+  }
+  .hero-ctas {
+    gap: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 320px;
+  }
+  .hero-ctas .btn {
+    width: 100%;
+  }
+}
+
+/* Section spacing reduction on mobile */
+@media (max-width: 600px) {
+  .section {
+    padding: 64px 0;
+  }
+  .section-title {
+    font-size: clamp(30px, 8vw, 38px);
+    margin-bottom: 14px;
+  }
+  .section-lede {
+    font-size: 14.5px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Masajistas list on mobile */
+@media (max-width: 600px) {
+  .masajistas-list {
+    gap: 36px;
+  }
+  .masajista-img {
+    height: 380px;
+  }
+  .masajista-card {
+    padding: 14px 8px 4px;
+    gap: 12px;
+  }
+  .masajista-name {
+    font-size: 28px;
+    line-height: 1.05;
+  }
+  .masajista-desc {
+    font-size: 14px;
+    max-width: 36ch;
+    margin: 0 auto;
+  }
+  .masajista-cta {
+    margin-top: 4px;
+  }
+  .gallery-counter {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+}
+
+/* Ritual */
+@media (max-width: 600px) {
+  .ritual {
+    padding: 56px 0;
+  }
+  .ritual h2 {
+    font-size: clamp(28px, 7.5vw, 36px);
+  }
+  .ritual p {
+    font-size: 14.5px;
+  }
+}
+
+/* Experiencias */
+@media (max-width: 600px) {
+  .experiencias-head h2 {
+    font-size: clamp(32px, 9vw, 42px);
+    line-height: 1;
+  }
+  .experiencias-head p {
+    font-size: 14.5px;
+  }
+  .experiencia {
+    padding: 22px 0;
+  }
+  .experiencia-num {
+    font-size: 22px;
+  }
+  .experiencia-name {
+    font-size: 16.5px;
+  }
+  .experiencia-desc {
+    font-size: 13.5px;
+  }
+  .experiencia-price {
+    font-size: 16px;
+  }
+}
+
+/* Espacio grid — keep 2 cols, slimmer gaps and tiles */
+@media (max-width: 480px) {
+  .espacio-grid {
+    gap: 10px;
+  }
+  .tile,
+  .tile.t1,
+  .tile.t2,
+  .tile.t3,
+  .tile.t4,
+  .tile.t5,
+  .tile.t6 {
+    min-height: 150px;
+  }
+  .tile-zoom {
+    width: 30px;
+    height: 30px;
+    bottom: 8px;
+    right: 8px;
+  }
+}
+
+/* CTA Final */
+@media (max-width: 600px) {
+  .cta-final {
+    padding: 64px 0;
+  }
+  .cta-final h2 {
+    font-size: clamp(32px, 9vw, 42px);
+    margin-bottom: 14px;
+  }
+  .cta-final p {
+    font-size: 14.5px;
+    margin-bottom: 24px;
+  }
+  .cta-final .btn {
+    display: flex;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 16px 24px;
+  }
+}
+
+/* Footer */
+@media (max-width: 600px) {
+  .footer {
+    padding: 56px 0 28px;
+  }
+  .footer-brand .mark {
+    font-size: 32px;
+  }
+  .footer-brand .sub {
+    font-size: 10px;
+    letter-spacing: 0.36em;
+  }
+  .footer-fine {
+    font-size: 11px;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+
+/* Detail page mobile */
+@media (max-width: 600px) {
+  .masajista-detail {
+    padding: 24px 0 60px;
+  }
+  .back-link {
+    font-size: 13px;
+    margin-bottom: 22px;
+  }
+  .detail-grid {
+    gap: 26px;
+    margin-bottom: 52px;
+  }
+  .detail-body {
+    gap: 14px;
+  }
+  .detail-body h1 {
+    font-size: clamp(34px, 9vw, 44px);
+    line-height: 1.05;
+  }
+  .detail-lede {
+    font-size: 16px;
+  }
+  .detail-bio p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .detail-servicios {
+    padding: 28px 20px;
+    gap: 20px;
+  }
+  .detail-servicios h2 {
+    font-size: clamp(24px, 7vw, 30px);
+  }
+  .servicio {
+    padding: 16px 0;
+    gap: 12px;
+  }
+  .servicio h3 {
+    font-size: 16.5px;
+    line-height: 1.25;
+  }
+  .servicio-duracion {
+    font-size: 12px;
+  }
+  .servicio-precio {
+    font-size: 18px;
+  }
+}
