@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Tantric Mallorca — Masaje Tántrico Profesional en Mallorca",
-    "description": "Centro de masaje tántrico en Mallorca. Rituales sensoriales con terapeutas certificadas: masaje clásico, próstata, cuatro manos y para parejas. Reserva con cita previa.",
+    "description": "Centro de masaje tántrico en Mallorca. Sutra Massage, Doble Climax, Streptese Divan y Energy Deluxe con masajistas profesionales. Reserva con cita previa.",
     "ogTitle": "Tantric Mallorca — Donde la piel se convierte en el lenguaje del alma",
-    "ogDescription": "Rituales de placer absoluto en el corazón de Mallorca. Masaje tántrico, ritual de cuatro manos y experiencias para parejas."
+    "ogDescription": "Rituales de placer absoluto en el corazón de Mallorca. Sutra Massage, Doble Climax, Streptese y Energy Deluxe."
   },
   "nav": {
     "about": "Nosotros",
@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "clasico": "Masaje Tántrico Clásico",
-      "prostata": "Masaje de Próstata",
-      "cuatro-manos": "Masaje a Cuatro Manos",
-      "parejas": "Masaje para Parejas"
+      "sutra": "Sutra Massage",
+      "doble-climax": "Doble Climax Massage",
+      "streptese": "Streptese Divan",
+      "energy-deluxe": "Energy Deluxe"
     }
   },
   "ritual": {
@@ -86,25 +86,25 @@
     "title": "Nuestras\nexperiencias",
     "lede": "Cada experiencia se prepara con materiales locales, ritmo pausado y la atención puesta enteramente en ti. Sesiones individuales y de pareja, con cita previa.",
     "items": {
-      "clasico": {
-        "name": "Masaje Tántrico Clásico",
-        "desc": "Una inmersión total de 75 minutos diseñada para resetear el sistema nervioso y expandir la sensibilidad sensorial.",
-        "price": "175 €"
+      "sutra": {
+        "name": "Sutra Massage",
+        "desc": "Masaje nudista interactivo en el cual se realizarán posturas del Kamasutra con la masajista.",
+        "price": "Desde 80 €"
       },
-      "prostata": {
-        "name": "Masaje de Próstata",
-        "desc": "Un ritual profundo que combina la respiración consciente con el tacto sagrado para liberar bloqueos emocionales y físicos.",
-        "price": "175 €"
+      "doble-climax": {
+        "name": "Doble Climax Massage",
+        "desc": "Doble momento de placer donde el masaje empezará en la ducha.",
+        "price": "200 €"
       },
-      "cuatro-manos": {
-        "name": "Masaje a Cuatro Manos",
-        "desc": "La experiencia definitiva de rendición. Dos terapeutas en armonía geométrica para silenciar la mente por completo.",
-        "price": "175 €"
+      "streptese": {
+        "name": "Streptese Divan",
+        "desc": "Sensual y exótico streptese con posturas y lencería en el diván.",
+        "price": "250 €"
       },
-      "parejas": {
-        "name": "Masaje para Parejas",
-        "desc": "Una sesión guiada para parejas que desean redescubrir su conexión erótica y espiritual a través del lenguaje del tantra.",
-        "price": "175 €"
+      "energy-deluxe": {
+        "name": "Energy Deluxe",
+        "desc": "La combinación perfecta de todos los anteriores más una irresistible tentación.",
+        "price": "300 €"
       }
     }
   },

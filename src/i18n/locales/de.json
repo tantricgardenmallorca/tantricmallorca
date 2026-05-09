@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Tantric Mallorca — Professionelle Tantra-Massage auf Mallorca",
-    "description": "Tantra-Massagezentrum auf Mallorca. Sinnliche Rituale mit zertifizierten Therapeutinnen: klassische Tantra-Massage, Prostata, Vier-Hände und Paarmassage. Nur nach Vereinbarung.",
+    "description": "Tantra-Massagezentrum auf Mallorca. Sutra Massage, Double Climax, Streptese Divan und Energy Deluxe mit professionellen Masseurinnen. Nur nach Vereinbarung.",
     "ogTitle": "Tantric Mallorca — Wo die Haut zur Sprache der Seele wird",
-    "ogDescription": "Rituale der absoluten Lust im Herzen Mallorcas. Tantra-Massage, Vier-Hände-Ritual und Erlebnisse für Paare."
+    "ogDescription": "Rituale der absoluten Lust im Herzen Mallorcas. Sutra Massage, Double Climax, Streptese und Energy Deluxe."
   },
   "nav": {
     "about": "Über uns",
@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "clasico": "Klassische Tantra-Massage",
-      "prostata": "Prostata-Massage",
-      "cuatro-manos": "Vier-Hände-Massage",
-      "parejas": "Paarmassage"
+      "sutra": "Sutra Massage",
+      "doble-climax": "Double Climax Massage",
+      "streptese": "Streptese Divan",
+      "energy-deluxe": "Energy Deluxe"
     }
   },
   "ritual": {
@@ -86,25 +86,25 @@
     "title": "Unsere\nErlebnisse",
     "lede": "Jedes Erlebnis wird mit lokalen Materialien, ruhigem Rhythmus und ungeteilter Aufmerksamkeit für dich vorbereitet. Einzel- und Paarsitzungen, ausschließlich nach Vereinbarung.",
     "items": {
-      "clasico": {
-        "name": "Klassische Tantra-Massage",
-        "desc": "Eine 75-minütige tiefe Versenkung, um das Nervensystem zurückzusetzen und die sinnliche Wahrnehmung zu erweitern.",
-        "price": "175 €"
+      "sutra": {
+        "name": "Sutra Massage",
+        "desc": "Interaktive Nacktmassage, bei der Sie gemeinsam mit der Masseurin Kamasutra-Stellungen einnehmen.",
+        "price": "Ab 80 €"
       },
-      "prostata": {
-        "name": "Prostata-Massage",
-        "desc": "Ein tiefes Ritual, das bewusstes Atmen mit heiliger Berührung verbindet, um emotionale und körperliche Blockaden zu lösen.",
-        "price": "175 €"
+      "doble-climax": {
+        "name": "Double Climax Massage",
+        "desc": "Doppelter Genussmoment: Die Massage beginnt unter der Dusche.",
+        "price": "200 €"
       },
-      "cuatro-manos": {
-        "name": "Vier-Hände-Massage",
-        "desc": "Das ultimative Erlebnis der Hingabe. Zwei Therapeutinnen in geometrischer Harmonie, um den Geist vollständig zu beruhigen.",
-        "price": "175 €"
+      "streptese": {
+        "name": "Streptese Divan",
+        "desc": "Sinnliches und exotisches Streptese mit Stellungen und Dessous auf dem Diwan.",
+        "price": "250 €"
       },
-      "parejas": {
-        "name": "Paarmassage",
-        "desc": "Eine geführte Sitzung für Paare, die ihre erotische und spirituelle Verbindung über die Sprache des Tantra wiederentdecken möchten.",
-        "price": "175 €"
+      "energy-deluxe": {
+        "name": "Energy Deluxe",
+        "desc": "Die perfekte Kombination aller vorherigen Erlebnisse plus eine unwiderstehliche Versuchung.",
+        "price": "300 €"
       }
     }
   },

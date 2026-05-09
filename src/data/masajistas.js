@@ -9,10 +9,10 @@ import camila1 from '../assets/photos/camila-1.jpg';
 import camila2 from '../assets/photos/camila-2.jpg';
 
 const SERVICIOS_KEYS = [
-  { key: 'clasico', duracion: '75 min', precio: '175 €' },
-  { key: 'prostata', duracion: '90 min', precio: '175 €' },
-  { key: 'cuatro-manos', duracion: '90 min', precio: '175 €' },
-  { key: 'parejas', duracion: '120 min', precio: '175 €' },
+  { key: 'sutra', duracion: '30 min · 1 h', precio: '80 € / 150 €' },
+  { key: 'doble-climax', duracion: '1 h', precio: '200 €' },
+  { key: 'streptese', duracion: '70 min', precio: '250 €' },
+  { key: 'energy-deluxe', duracion: '70 min', precio: '300 €' },
 ];
 
 export const MASAJISTAS = [
