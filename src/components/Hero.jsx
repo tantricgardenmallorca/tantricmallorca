@@ -1,6 +1,8 @@
+import { useTranslation } from '../i18n/useTranslation.js';
 import heroVideo from '../assets/hero-video.mp4';
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <section id="top" className="hero">
       <video
@@ -15,18 +17,14 @@ export default function Hero() {
       />
       <div className="hero-overlay" aria-hidden="true" />
       <div className="container hero-content">
-        <h1>Donde la piel se convierte en el lenguaje del alma.</h1>
-        <p>
-          Más que un masaje, una iniciación a la presencia plena. En el corazón
-          de la isla, hemos creado un espacio único de descanso y placer para
-          quienes buscan una experiencia fuera de lo cotidiano.
-        </p>
+        <h1>{t('hero.title')}</h1>
+        <p>{t('hero.lede')}</p>
         <div className="hero-ctas">
           <a href="#contacto" className="btn btn-light">
-            Agendar Cita
+            {t('hero.ctaPrimary')}
           </a>
           <a href="#experiencias" className="btn btn-ghost">
-            Explora nuestras Experiencias
+            {t('hero.ctaSecondary')}
           </a>
         </div>
       </div>

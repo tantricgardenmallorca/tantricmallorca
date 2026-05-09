@@ -1,74 +1,98 @@
+import { useEffect } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { getMasajista } from '../data/masajistas.js';
 import { whatsappLink } from '../data/whatsapp.js';
+import { useTranslation } from '../i18n/useTranslation.js';
+import Gallery from '../components/Gallery.jsx';
+import SEO from '../components/SEO.jsx';
 
 export default function MasajistaDetail() {
   const { slug } = useParams();
+  const { t } = useTranslation();
   const masajista = getMasajista(slug);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [slug]);
 
   if (!masajista) {
     return <Navigate to="/" replace />;
   }
 
-  const reservarMsg = `Hola, me gustaría reservar una sesión con ${masajista.name}.`;
+  const displayName = t(`masajistas.people.${slug}.displayName`);
+  const desc = t(`masajistas.people.${slug}.desc`);
+  const bio = t(`masajistas.people.${slug}.bio`);
+  const reservarMsg = t('masajistas.reserveMessage', { name: displayName });
+  const pageTitle = `${displayName} · Tantric Mallorca`;
 
   return (
-    <article className="masajista-detail">
-      <div className="container">
-        <Link to="/#masajistas" className="back-link">
-          ← Volver a Masajistas
-        </Link>
+    <>
+      <SEO
+        path={`/masajistas/${slug}`}
+        title={pageTitle}
+        description={desc}
+      />
 
-        <div className="detail-grid">
-          <div className="detail-image">
-            <img src={masajista.image} alt={masajista.name} />
-          </div>
+      <article className="masajista-detail">
+        <div className="container">
+          <Link to="/#masajistas" className="back-link">
+            {t('masajistas.back')}
+          </Link>
 
-          <div className="detail-body">
-            <span className="eyebrow">Tantric Mallorca · Masajista</span>
-            <h1>{masajista.name}</h1>
-            <p className="detail-lede">{masajista.desc}</p>
-
-            <div className="detail-bio">
-              {masajista.bio.map((parrafo, i) => (
-                <p key={i}>{parrafo}</p>
-              ))}
+          <div className="detail-grid">
+            <div className="detail-image">
+              <Gallery
+                images={masajista.images}
+                name={displayName}
+                variant="detail"
+              />
             </div>
 
+            <div className="detail-body">
+              <span className="eyebrow">{t('masajistas.eyebrow')}</span>
+              <h1>{displayName}</h1>
+              <p className="detail-lede">{desc}</p>
+
+              <div className="detail-bio">
+                {Array.isArray(bio) &&
+                  bio.map((parrafo, i) => <p key={i}>{parrafo}</p>)}
+              </div>
+
+              <a
+                href={whatsappLink(reservarMsg)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-dark detail-cta"
+              >
+                {t('masajistas.bookWhatsApp')}
+              </a>
+            </div>
+          </div>
+
+          <section className="detail-servicios">
+            <h2>{t('masajistas.servicesTitle')}</h2>
+            <div className="servicios-list">
+              {masajista.servicios.map((s) => (
+                <div key={s.key} className="servicio">
+                  <div className="servicio-info">
+                    <h3>{t(`masajistas.servicios.${s.key}`)}</h3>
+                    <span className="servicio-duracion">{s.duracion}</span>
+                  </div>
+                  <span className="servicio-precio">{s.precio}</span>
+                </div>
+              ))}
+            </div>
             <a
               href={whatsappLink(reservarMsg)}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-dark detail-cta"
+              className="btn btn-dark"
             >
-              Reservar por WhatsApp
+              {t('masajistas.bookShort')}
             </a>
-          </div>
+          </section>
         </div>
-
-        <section className="detail-servicios">
-          <h2>Servicios disponibles</h2>
-          <div className="servicios-list">
-            {masajista.servicios.map((s) => (
-              <div key={s.nombre} className="servicio">
-                <div className="servicio-info">
-                  <h3>{s.nombre}</h3>
-                  <span className="servicio-duracion">{s.duracion}</span>
-                </div>
-                <span className="servicio-precio">{s.precio}</span>
-              </div>
-            ))}
-          </div>
-          <a
-            href={whatsappLink(reservarMsg)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-dark"
-          >
-            Reservar
-          </a>
-        </section>
-      </div>
-    </article>
+      </article>
+    </>
   );
 }

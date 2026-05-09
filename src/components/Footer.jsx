@@ -1,37 +1,32 @@
-const LEGAL = [
-  ['Términos y Condiciones', '#'],
-  ['Política de Privacidad', '#'],
-  ['Aviso de Cookies', '#'],
-];
+import { useTranslation } from '../i18n/useTranslation.js';
 
+const LEGAL_KEYS = ['footer.terms', 'footer.privacy', 'footer.cookies'];
 const YEAR = new Date().getFullYear();
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
             <span className="mark">Tantric Mallorca</span>
-            <span className="sub">Ritual · Presencia · Isla</span>
+            <span className="sub">{t('footer.tagline')}</span>
           </div>
           <div className="footer-col">
-            <h4>Legal &amp; Compliance</h4>
+            <h4>{t('footer.legal')}</h4>
             <ul>
-              {LEGAL.map(([label, href]) => (
-                <li key={label}>
-                  <a href={href}>{label}</a>
+              {LEGAL_KEYS.map((k) => (
+                <li key={k}>
+                  <a href="#">{t(k)}</a>
                 </li>
               ))}
             </ul>
           </div>
         </div>
         <div className="footer-fine">
-          <span>
-            Tantric Mallorca opera bajo cita previa en Mallorca, Illes Balears.
-            Servicios para mayores de 18 años.
-          </span>
-          <span>© {YEAR} Tantric Mallorca. Todos los derechos reservados.</span>
+          <span>{t('footer.fine1')}</span>
+          <span>{t('footer.fine2', { year: YEAR })}</span>
         </div>
       </div>
     </footer>

@@ -1,13 +1,15 @@
+import { useTranslation } from '../i18n/useTranslation.js';
 import { whatsappLink } from '../data/whatsapp.js';
 
 export default function WhatsAppButton() {
+  const { t } = useTranslation();
   return (
     <a
-      href={whatsappLink('Hola, me gustaría agendar una experiencia en Tantric Mallorca.')}
+      href={whatsappLink(t('whatsapp.default'))}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-fab"
-      aria-label="Contactar por WhatsApp"
+      aria-label={t('whatsapp.aria')}
     >
       <svg
         viewBox="0 0 24 24"

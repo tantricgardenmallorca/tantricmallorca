@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Tantric Mallorca — Professionelle Tantra-Massage auf Mallorca",
+    "description": "Tantra-Massagezentrum auf Mallorca. Sinnliche Rituale mit zertifizierten Therapeutinnen: klassische Tantra-Massage, Prostata, Vier-Hände und Paarmassage. Nur nach Vereinbarung.",
+    "ogTitle": "Tantric Mallorca — Wo die Haut zur Sprache der Seele wird",
+    "ogDescription": "Rituale der absoluten Lust im Herzen Mallorcas. Tantra-Massage, Vier-Hände-Ritual und Erlebnisse für Paare."
+  },
+  "nav": {
+    "about": "Über uns",
+    "experiences": "Massagen",
+    "masseuses": "Masseurinnen",
+    "contact": "Kontakt",
+    "book": "Buchen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "Wo die Haut zur Sprache der Seele wird.",
+    "lede": "Mehr als eine Massage — eine Einweihung in volle Präsenz. Im Herzen der Insel haben wir einen einzigartigen Raum der Ruhe und der Lust geschaffen, für alle, die ein Erlebnis jenseits des Alltags suchen.",
+    "ctaPrimary": "Termin buchen",
+    "ctaSecondary": "Unsere Erlebnisse entdecken"
+  },
+  "masajistas": {
+    "title": "Unsere Masseurinnen",
+    "lede": "Unsere Spezialistinnen sind nicht nur Therapeutinnen, sondern zertifizierte Wegbegleiterinnen in somatischen und tantrischen Künsten. Ausgewählt für ihre hohe Schwingung und ihr empathisches Zuhören halten sie den Raum, damit du dich wirklich loslassen kannst.",
+    "viewMore": "Mehr erfahren",
+    "back": "← Zurück zu den Masseurinnen",
+    "eyebrow": "Tantric Mallorca · Masseurin",
+    "bookWhatsApp": "Über WhatsApp buchen",
+    "bookShort": "Buchen",
+    "servicesTitle": "Verfügbare Leistungen",
+    "reserveMessage": "Hallo, ich möchte gern eine Sitzung mit {{name}} buchen.",
+    "imageAlt": "Foto {{n}} von {{name}}",
+    "prev": "Vorheriges Foto",
+    "next": "Nächstes Foto",
+    "goTo": "Zum Foto {{n}}",
+    "people": {
+      "ivonny": {
+        "displayName": "Ivonny",
+        "desc": "Expertin für Tantra-Massage und tiefe Entspannungstechniken.",
+        "bio": [
+          "Ivonny begleitet seit über zehn Jahren Menschen dabei, sich durch bewusste Massage wieder mit ihrem Körper zu verbinden. Ihre Arbeit verbindet Atem, Energie und gehaltene Berührung zu einem Raum tiefen Vertrauens.",
+          "Ihr Ansatz ist somatisch und sinnlich: Jede Sitzung passt sich dem natürlichen Rhythmus des Körpers an, ohne Eile, bis das Nervensystem zur Ruhe kommt.",
+          "Sie empfängt bei Tantric Mallorca nach Vereinbarung, einzeln oder als Paar, in einer intimen, bis ins Detail gepflegten Atmosphäre."
+        ]
+      },
+      "juana": {
+        "displayName": "Juana",
+        "desc": "Expertin für Tantra-Massage und tiefe Entspannungstechniken.",
+        "bio": [
+          "Juana ist Therapeutin für Tantra-Massage mit Ausbildung in östlichen Techniken und sinnlicher Körperarbeit. Ihre feste und zugleich zarte Hand führt jene, die sie empfängt, in einen Zustand vollkommener Hingabe.",
+          "Sie begleitet Einzelsitzungen, Vier-Hände-Massagen und Paar-Erlebnisse, immer aus Präsenz und vollem Respekt heraus.",
+          "Sie arbeitet auf Mallorca nach Vereinbarung. Jedes Ritual wird sorgsam vorbereitet: Öle, Düfte, Musik und warmes Licht, damit sich der Körper hingeben kann."
+        ]
+      },
+      "dulce-maria": {
+        "displayName": "Dulce María",
+        "desc": "Expertin für Tantra-Massage und tiefe Entspannungstechniken.",
+        "bio": [
+          "Dulce María vereint langjährige Praxis in Tantra-Massage, ganzheitlichen Therapien und Körperdisziplinen. Ihre Arbeit lädt dich ein, den Körper aus einer erweiterten Sensibilität heraus zu bewohnen.",
+          "Sie gestaltet jede Sitzung als einzigartiges Ritual: Lesen des Körpers, Atem, bewusste Berührung und Stille. Die Absicht ist immer dieselbe: dass der Körper sich an seine Fähigkeit zu Lust und Ruhe erinnert.",
+          "Sie empfängt nach Vereinbarung bei Tantric Mallorca, in Einzel- oder Paarsitzungen, mit edlen Materialien und einer durchgehenden Pflege der Atmosphäre."
+        ]
+      }
+    },
+    "servicios": {
+      "clasico": "Klassische Tantra-Massage",
+      "prostata": "Prostata-Massage",
+      "cuatro-manos": "Vier-Hände-Massage",
+      "parejas": "Paarmassage"
+    }
+  },
+  "ritual": {
+    "title": "Das Ritual der vollen Präsenz",
+    "body": "Wir bieten keine konventionellen Massagen an, sondern gestalten Rituale absoluter Lust. Bei Tantric Mallorca ist jede Sitzung eine Sinnesreise, geschaffen, um deinen Körper zu erwecken und deine tiefste Energie freizusetzen. Bewusste Berührung, das Aroma unserer Öle und eine Atmosphäre völliger Privatsphäre vereinen sich, damit du Entspannung in ihrer höchsten und genussvollsten Form erlebst."
+  },
+  "experiencias": {
+    "title": "Unsere\nErlebnisse",
+    "lede": "Jedes Erlebnis wird mit lokalen Materialien, ruhigem Rhythmus und ungeteilter Aufmerksamkeit für dich vorbereitet. Einzel- und Paarsitzungen, ausschließlich nach Vereinbarung.",
+    "items": {
+      "clasico": {
+        "name": "Klassische Tantra-Massage",
+        "desc": "Eine 75-minütige tiefe Versenkung, um das Nervensystem zurückzusetzen und die sinnliche Wahrnehmung zu erweitern.",
+        "price": "175 €"
+      },
+      "prostata": {
+        "name": "Prostata-Massage",
+        "desc": "Ein tiefes Ritual, das bewusstes Atmen mit heiliger Berührung verbindet, um emotionale und körperliche Blockaden zu lösen.",
+        "price": "175 €"
+      },
+      "cuatro-manos": {
+        "name": "Vier-Hände-Massage",
+        "desc": "Das ultimative Erlebnis der Hingabe. Zwei Therapeutinnen in geometrischer Harmonie, um den Geist vollständig zu beruhigen.",
+        "price": "175 €"
+      },
+      "parejas": {
+        "name": "Paarmassage",
+        "desc": "Eine geführte Sitzung für Paare, die ihre erotische und spirituelle Verbindung über die Sprache des Tantra wiederentdecken möchten.",
+        "price": "175 €"
+      }
+    }
+  },
+  "espacio": {
+    "title": "Ein intimer & ruhiger Raum",
+    "lede": "Ein bis ins Detail gepflegter Rückzugsort — warmes Licht, Düfte, Musik und edle Materialien — wo jede Ecke den Körper einlädt, die Zeit loszulassen und im Augenblick zu wohnen.",
+    "tiles": {
+      "salaPrincipal": "Hauptraum mit intimer Beleuchtung",
+      "composicion": "Massageraum mit Spiegel und Tantra-Stuhl",
+      "altar": "Altar mit Buddha-Figur und Kerzen",
+      "silla": "Tantra-Stuhl · warmes Licht",
+      "salaAzul": "Raum mit blauer Beleuchtung und abstrakter Kunst",
+      "recepcion": "Empfang mit Spiegel und Loungemöbeln"
+    }
+  },
+  "cta": {
+    "title": "Bist du bereit?",
+    "body": "Es gibt Empfindungen, die dein Körper noch nicht entdeckt hat. Bei Tantric Mallorca schaffen wir die Privatsphäre und das Verlangen, die du brauchst, um Lust ohne Grenzen zu erkunden.",
+    "button": "Erlebnis buchen"
+  },
+  "footer": {
+    "tagline": "Ritual · Präsenz · Insel",
+    "legal": "Rechtliches & Compliance",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Hinweis",
+    "fine1": "Tantric Mallorca arbeitet ausschließlich nach Vereinbarung auf Mallorca, Balearische Inseln. Leistungen für Personen ab 18 Jahren.",
+    "fine2": "© {{year}} Tantric Mallorca. Alle Rechte vorbehalten."
+  },
+  "whatsapp": {
+    "default": "Hallo, ich hätte gern weitere Informationen zu Tantric Mallorca.",
+    "aria": "Über WhatsApp kontaktieren"
+  }
+}

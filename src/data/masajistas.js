@@ -1,44 +1,41 @@
-import ivonnyImg from '../assets/ivonny.jpg';
-import juanaImg from '../assets/juana.jpg';
-import dulceMariaImg from '../assets/masaje-espalda.jpg';
+import ivonny1 from '../assets/photos/ivonny-1.jpg';
+import ivonny2 from '../assets/photos/ivonny-2.jpg';
+import juana1 from '../assets/photos/juana-1.jpg';
+import juana2 from '../assets/photos/juana-2.jpg';
+import juana3 from '../assets/photos/juana-3.jpg';
+import dulce1 from '../assets/photos/dulce-1.jpg';
+import dulce2 from '../assets/photos/dulce-2.jpg';
+import dulce3 from '../assets/photos/dulce-3.jpg';
+import dulce4 from '../assets/photos/dulce-4.jpg';
 
-const LOREM_BIO_LARGO = [
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
-];
-
-const SERVICIOS = [
-  { nombre: 'Masaje Tántrico Clásico', duracion: '75 min', precio: '175 €' },
-  { nombre: 'Masaje de Próstata', duracion: '90 min', precio: '175 €' },
-  { nombre: 'Masaje a Cuatro Manos', duracion: '90 min', precio: '175 €' },
-  { nombre: 'Masaje para Parejas', duracion: '120 min', precio: '175 €' },
+const SERVICIOS_KEYS = [
+  { key: 'clasico', duracion: '75 min', precio: '175 €' },
+  { key: 'prostata', duracion: '90 min', precio: '175 €' },
+  { key: 'cuatro-manos', duracion: '90 min', precio: '175 €' },
+  { key: 'parejas', duracion: '120 min', precio: '175 €' },
 ];
 
 export const MASAJISTAS = [
   {
     slug: 'ivonny',
-    name: 'Ivonny bonita',
-    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    image: ivonnyImg,
-    bio: LOREM_BIO_LARGO,
-    servicios: SERVICIOS,
+    name: 'Ivonny',
+    images: [ivonny1, ivonny2],
+    bioParagraphs: 3,
+    servicios: SERVICIOS_KEYS,
   },
   {
     slug: 'juana',
-    name: 'Juana banana',
-    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    image: juanaImg,
-    bio: LOREM_BIO_LARGO,
-    servicios: SERVICIOS,
+    name: 'Juana',
+    images: [juana1, juana2, juana3],
+    bioParagraphs: 3,
+    servicios: SERVICIOS_KEYS,
   },
   {
     slug: 'dulce-maria',
-    name: 'Dulce Maria',
-    desc: 'Experta en masaje tántrico y técnicas de relajación profunda.',
-    image: dulceMariaImg,
-    bio: LOREM_BIO_LARGO,
-    servicios: SERVICIOS,
+    name: 'Dulce María',
+    images: [dulce1, dulce2, dulce3, dulce4],
+    bioParagraphs: 3,
+    servicios: SERVICIOS_KEYS,
   },
 ];
 

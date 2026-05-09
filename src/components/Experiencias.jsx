@@ -1,54 +1,41 @@
-const EXPERIENCIAS = [
-  {
-    n: '01',
-    nombre: 'Masaje Tántrico Clásico',
-    desc: 'Una inmersión total de 75 minutos diseñada para resetear el sistema nervioso y expandir la sensibilidad sensorial.',
-    precio: '175 €',
-  },
-  {
-    n: '02',
-    nombre: 'Masaje de Próstata',
-    desc: 'Un ritual profundo que combina la respiración consciente con el tacto sagrado para liberar bloqueos emocionales y físicos.',
-    precio: '175 €',
-  },
-  {
-    n: '03',
-    nombre: 'Masaje a Cuatro Manos',
-    desc: 'La experiencia definitiva de rendición. Dos terapeutas en armonía geométrica para silenciar la mente por completo.',
-    precio: '175 €',
-  },
-  {
-    n: '04',
-    nombre: 'Masaje para Parejas',
-    desc: 'Una sesión guiada para parejas que desean redescubrir su conexión erótica y espiritual a través del lenguaje del tantra.',
-    precio: '175 €',
-  },
-];
+import { useTranslation } from '../i18n/useTranslation.js';
+
+const ITEMS = ['clasico', 'prostata', 'cuatro-manos', 'parejas'];
 
 export default function Experiencias() {
+  const { t } = useTranslation();
+  const title = t('experiencias.title');
+  const titleLines = typeof title === 'string' ? title.split('\n') : [title];
   return (
     <section id="experiencias" className="section experiencias">
       <div className="container">
         <div className="experiencias-head">
           <h2>
-            Nuestras
-            <br />
-            experiencias
+            {titleLines.map((line, i) => (
+              <span key={i}>
+                {line}
+                {i < titleLines.length - 1 && <br />}
+              </span>
+            ))}
           </h2>
-          <p>
-            Cada experiencia se prepara con materiales locales, ritmo pausado y
-            la atención puesta enteramente en ti. Sesiones individuales y de
-            pareja, con cita previa.
-          </p>
+          <p>{t('experiencias.lede')}</p>
         </div>
 
         <div className="experiencias-list">
-          {EXPERIENCIAS.map((e) => (
-            <div key={e.n} className="experiencia">
-              <span className="experiencia-num">{e.n}</span>
-              <h3 className="experiencia-name">{e.nombre}</h3>
-              <p className="experiencia-desc">{e.desc}</p>
-              <span className="experiencia-price">{e.precio}</span>
+          {ITEMS.map((key, idx) => (
+            <div key={key} className="experiencia">
+              <span className="experiencia-num">
+                {String(idx + 1).padStart(2, '0')}
+              </span>
+              <h3 className="experiencia-name">
+                {t(`experiencias.items.${key}.name`)}
+              </h3>
+              <p className="experiencia-desc">
+                {t(`experiencias.items.${key}.desc`)}
+              </p>
+              <span className="experiencia-price">
+                {t(`experiencias.items.${key}.price`)}
+              </span>
             </div>
           ))}
         </div>
