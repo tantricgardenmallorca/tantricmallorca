@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Tantric Mallorca — Professionelle Tantra-Massage auf Mallorca",
-    "description": "Tantra-Massagezentrum auf Mallorca. Sutra Massage, Double Climax, Streptese Divan und Energy Deluxe mit professionellen Masseurinnen. Nur nach Vereinbarung.",
+    "description": "Tantra-Massagezentrum auf Mallorca. Sutra Massage, Double Climax, Striptease Divan und Energy Deluxe mit professionellen Masseurinnen. Nur nach Vereinbarung.",
     "ogTitle": "Tantric Mallorca — Wo die Haut zur Sprache der Seele wird",
-    "ogDescription": "Rituale der absoluten Lust im Herzen Mallorcas. Sutra Massage, Double Climax, Streptese und Energy Deluxe."
+    "ogDescription": "Rituale der absoluten Lust im Herzen Mallorcas. Sutra Massage, Double Climax, Striptease und Energy Deluxe."
   },
   "nav": {
     "about": "Über uns",
@@ -74,7 +74,7 @@
     "servicios": {
       "sutra": "Sutra Massage",
       "doble-climax": "Double Climax Massage",
-      "streptese": "Streptese Divan",
+      "striptease": "Striptease Divan",
       "energy-deluxe": "Energy Deluxe"
     }
   },
@@ -96,9 +96,9 @@
         "desc": "Doppelter Genussmoment: Die Massage beginnt unter der Dusche.",
         "price": "200 €"
       },
-      "streptese": {
-        "name": "Streptese Divan",
-        "desc": "Sinnliches und exotisches Streptese mit Stellungen und Dessous auf dem Diwan.",
+      "striptease": {
+        "name": "Striptease Divan",
+        "desc": "Sinnliches und exotisches Striptease mit Stellungen und Dessous auf dem Diwan.",
         "price": "250 €"
       },
       "energy-deluxe": {

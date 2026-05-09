@@ -1,15 +1,17 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { getMasajista } from '../data/masajistas.js';
 import { whatsappLink } from '../data/whatsapp.js';
 import { useTranslation } from '../i18n/useTranslation.js';
 import Gallery from '../components/Gallery.jsx';
+import Lightbox from '../components/Lightbox.jsx';
 import SEO from '../components/SEO.jsx';
 
 export default function MasajistaDetail() {
   const { slug } = useParams();
   const { t } = useTranslation();
   const masajista = getMasajista(slug);
+  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' });
@@ -45,6 +47,7 @@ export default function MasajistaDetail() {
                 images={masajista.images}
                 name={displayName}
                 variant="detail"
+                onImageClick={(idx) => setLightboxIndex(idx)}
               />
             </div>
 
@@ -93,6 +96,15 @@ export default function MasajistaDetail() {
           </section>
         </div>
       </article>
+
+      {lightboxIndex !== null && (
+        <Lightbox
+          images={masajista.images}
+          index={lightboxIndex}
+          onChange={setLightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+        />
+      )}
     </>
   );
 }

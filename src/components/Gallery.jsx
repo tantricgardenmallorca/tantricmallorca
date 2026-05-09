@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from '../i18n/useTranslation.js';
 
-export default function Gallery({ images, name, variant = 'card' }) {
+export default function Gallery({ images, name, variant = 'card', onImageClick }) {
   const { t } = useTranslation();
   const [index, setIndex] = useState(0);
   const total = images.length;
@@ -69,6 +69,7 @@ export default function Gallery({ images, name, variant = 'card' }) {
                 alt={t('masajistas.imageAlt', { n: i + 1, name })}
                 loading={i === 0 ? 'eager' : 'lazy'}
                 draggable={false}
+                onClick={onImageClick ? () => onImageClick(index) : undefined}
               />
             </div>
           ))}

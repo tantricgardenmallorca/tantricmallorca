@@ -1,6 +1,6 @@
 import { useTranslation } from '../i18n/useTranslation.js';
 
-const ITEMS = ['sutra', 'doble-climax', 'streptese', 'energy-deluxe'];
+const ITEMS = ['sutra', 'doble-climax', 'striptease', 'energy-deluxe'];
 
 export default function Experiencias() {
   const { t } = useTranslation();

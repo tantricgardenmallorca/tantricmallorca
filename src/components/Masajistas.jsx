@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from '../i18n/useTranslation.js';
 import { MASAJISTAS } from '../data/masajistas.js';
 import Gallery from './Gallery.jsx';
+import Lightbox from './Lightbox.jsx';
 
 export default function Masajistas() {
   const { t } = useTranslation();
+  const [lightbox, setLightbox] = useState(null);
 
   return (
     <section id="masajistas" className="section masajistas">
@@ -22,14 +25,21 @@ export default function Masajistas() {
                 className={`masajista${i % 2 === 1 ? ' masajista--reverse' : ''}`}
               >
                 <div className="masajista-img">
-                  <Gallery images={m.images} name={displayName} variant="card" />
+                  <Gallery
+                    images={m.images}
+                    name={displayName}
+                    variant="card"
+                    onImageClick={(idx) =>
+                      setLightbox({ images: m.images, index: idx, name: displayName })
+                    }
+                  />
                 </div>
                 <div className="masajista-card">
                   <h3 className="masajista-name">{displayName}</h3>
                   <p className="masajista-desc">{desc}</p>
                   <Link
                     to={`/masajistas/${m.slug}`}
-                    className="btn btn-dark masajista-cta"
+                    className="btn btn-terracotta masajista-cta"
                   >
                     {t('masajistas.viewMore')}
                   </Link>
@@ -39,6 +49,15 @@ export default function Masajistas() {
           })}
         </div>
       </div>
+
+      {lightbox && (
+        <Lightbox
+          images={lightbox.images}
+          index={lightbox.index}
+          onChange={(i) => setLightbox((cur) => (cur ? { ...cur, index: i } : null))}
+          onClose={() => setLightbox(null)}
+        />
+      )}
     </section>
   );
 }

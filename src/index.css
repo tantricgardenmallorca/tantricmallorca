@@ -106,6 +106,13 @@ svg {
   background: var(--c-ink);
   color: var(--c-cream);
 }
+.btn-terracotta {
+  background: var(--c-terracotta);
+  color: var(--c-cream);
+}
+.btn-terracotta:hover {
+  background: #964927;
+}
 
 /* ===== Nav ===== */
 .nav {
@@ -403,15 +410,12 @@ svg {
   height: 540px;
 }
 .masajista-card {
-  background: var(--c-cream-2);
-  border-radius: 8px;
-  padding: clamp(32px, 3vw, 44px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 16px;
-  min-height: 280px;
+  gap: 18px;
+  padding: clamp(20px, 3vw, 40px);
 }
 .masajista-name {
   font-family: var(--display);
@@ -941,6 +945,11 @@ svg {
   object-fit: cover;
   user-select: none;
   -webkit-user-drag: none;
+  image-rendering: -webkit-optimize-contrast;
+  filter: saturate(1.04) contrast(1.02);
+}
+.gallery--card .gallery-slide img {
+  cursor: zoom-in;
 }
 .gallery-nav {
   position: absolute;

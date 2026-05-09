@@ -11,7 +11,7 @@ import camila2 from '../assets/photos/camila-2.jpg';
 const SERVICIOS_KEYS = [
   { key: 'sutra', duracion: '30 min · 1 h', precio: '80 € / 150 €' },
   { key: 'doble-climax', duracion: '1 h', precio: '200 €' },
-  { key: 'streptese', duracion: '70 min', precio: '250 €' },
+  { key: 'striptease', duracion: '70 min', precio: '250 €' },
   { key: 'energy-deluxe', duracion: '70 min', precio: '300 €' },
 ];
 
