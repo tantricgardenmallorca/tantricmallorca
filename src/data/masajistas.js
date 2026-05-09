@@ -1,8 +1,8 @@
 import ivonny1 from '../assets/photos/ivonny-1.jpg';
 import ivonny2 from '../assets/photos/ivonny-2.jpg';
-import juana1 from '../assets/photos/juana-1.jpg';
-import juana2 from '../assets/photos/juana-2.jpg';
-import juana3 from '../assets/photos/juana-3.jpg';
+import melany1 from '../assets/photos/melany-1.jpg';
+import melany2 from '../assets/photos/melany-2.jpg';
+import melany3 from '../assets/photos/melany-3.jpg';
 import dulce1 from '../assets/photos/dulce-1.jpg';
 import dulce2 from '../assets/photos/dulce-2.jpg';
 import camila1 from '../assets/photos/camila-1.jpg';
@@ -17,15 +17,15 @@ const SERVICIOS_KEYS = [
 
 export const MASAJISTAS = [
   {
-    slug: 'ivonny',
-    name: 'Ivonny',
-    images: [ivonny1, ivonny2],
+    slug: 'melany',
+    name: 'Melany',
+    images: [melany1, melany2, melany3],
     servicios: SERVICIOS_KEYS,
   },
   {
-    slug: 'juana',
-    name: 'Juana',
-    images: [juana1, juana2, juana3],
+    slug: 'ivonny',
+    name: 'Ivonny',
+    images: [ivonny1, ivonny2],
     servicios: SERVICIOS_KEYS,
   },
   {
