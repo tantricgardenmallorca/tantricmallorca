@@ -60,6 +60,15 @@
           "Diseña cada sesión como un ritual único: lectura del cuerpo, respiración, tacto consciente y silencio. La intención es siempre la misma: que el cuerpo recuerde su capacidad de placer y descanso.",
           "Recibe con cita previa en Tantric Mallorca, en sesiones individuales o de pareja, con materiales nobles y un cuidado sostenido del ambiente."
         ]
+      },
+      "camila": {
+        "displayName": "Camila",
+        "desc": "Experta en masaje tántrico y técnicas de relajación profunda.",
+        "bio": [
+          "Camila aporta una mirada serena y precisa al masaje tántrico. Su práctica combina técnica corporal contemporánea con la sabiduría del tacto consciente, creando un viaje sensorial pausado y elegante.",
+          "Cada sesión se construye desde la escucha: la temperatura, el ritmo de la respiración y el silencio compartido marcan la dirección. Su intención es que el cuerpo encuentre su propio descanso, sin forzar nada.",
+          "Atiende en Tantric Mallorca con cita previa, en sesiones individuales y para parejas, en una atmósfera íntima preparada con cuidado."
+        ]
       }
     },
     "servicios": {
@@ -128,5 +137,12 @@
   "whatsapp": {
     "default": "Hola, me gustaría tener más información sobre Tantric Mallorca.",
     "aria": "Contactar por WhatsApp"
+  },
+  "lightbox": {
+    "aria": "Galería de imágenes ampliada",
+    "close": "Cerrar",
+    "prev": "Imagen anterior",
+    "next": "Imagen siguiente",
+    "imageAlt": "Imagen {{n}} ampliada"
   }
 }

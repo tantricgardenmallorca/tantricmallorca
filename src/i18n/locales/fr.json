@@ -60,6 +60,15 @@
           "Elle conçoit chaque séance comme un rituel unique : lecture du corps, respiration, toucher conscient et silence. L'intention reste la même : que le corps se souvienne de sa capacité de plaisir et de repos.",
           "Elle reçoit sur rendez-vous à Tantric Mallorca, en sessions individuelles ou en couple, avec des matériaux nobles et un soin constant de l'ambiance."
         ]
+      },
+      "camila": {
+        "displayName": "Camila",
+        "desc": "Experte en massage tantrique et techniques de relaxation profonde.",
+        "bio": [
+          "Camila apporte un regard serein et précis au massage tantrique. Sa pratique allie une technique corporelle contemporaine à la sagesse du toucher conscient, pour un voyage sensoriel posé et élégant.",
+          "Chaque séance se construit dans l'écoute : la température, le rythme de la respiration et le silence partagé donnent la direction. Son intention est que le corps trouve son propre repos, sans rien forcer.",
+          "Elle reçoit à Tantric Mallorca sur rendez-vous, en séances individuelles et pour les couples, dans une atmosphère intime préparée avec soin."
+        ]
       }
     },
     "servicios": {
@@ -128,5 +137,12 @@
   "whatsapp": {
     "default": "Bonjour, je souhaiterais avoir plus d'informations sur Tantric Mallorca.",
     "aria": "Contacter via WhatsApp"
+  },
+  "lightbox": {
+    "aria": "Galerie d'images agrandie",
+    "close": "Fermer",
+    "prev": "Image précédente",
+    "next": "Image suivante",
+    "imageAlt": "Image {{n}} agrandie"
   }
 }

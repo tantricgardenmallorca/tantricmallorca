@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { useTranslation } from '../i18n/useTranslation.js';
+import Lightbox from './Lightbox.jsx';
 import salaRoja from '../assets/photos/lugar-sala-roja.jpg';
 import mirrorBed from '../assets/photos/lugar-mirror-bed.jpg';
 import altar from '../assets/photos/lugar-altar.jpg';
@@ -15,8 +17,12 @@ const TILES = [
   { id: 't6', labelKey: 'espacio.tiles.recepcion', image: recepcion },
 ];
 
+const IMAGES = TILES.map((t) => t.image);
+
 export default function Espacio() {
   const { t } = useTranslation();
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+
   return (
     <section className="section espacio">
       <div className="container">
@@ -24,13 +30,51 @@ export default function Espacio() {
         <p className="section-lede">{t('espacio.lede')}</p>
 
         <div className="espacio-grid">
-          {TILES.map((tile) => (
-            <div key={tile.id} className={`tile ${tile.id}`}>
+          {TILES.map((tile, i) => (
+            <button
+              type="button"
+              key={tile.id}
+              className={`tile ${tile.id}`}
+              onClick={() => setLightboxIndex(i)}
+              aria-label={t(tile.labelKey)}
+            >
               <img src={tile.image} alt={t(tile.labelKey)} loading="lazy" />
-            </div>
+              <span className="tile-zoom" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <circle
+                    cx="9"
+                    cy="9"
+                    r="6"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  />
+                  <path
+                    d="M13.5 13.5L17 17"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                  />
+                  <path
+                    d="M6 9h6M9 6v6"
+                    stroke="currentColor"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              </span>
+            </button>
           ))}
         </div>
       </div>
+
+      {lightboxIndex !== null && (
+        <Lightbox
+          images={IMAGES}
+          index={lightboxIndex}
+          onChange={setLightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+        />
+      )}
     </section>
   );
 }
