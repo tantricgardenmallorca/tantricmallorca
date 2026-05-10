@@ -1,5 +1,4 @@
-// MOCK number — placeholder until cliente entregue el WhatsApp real.
-export const WHATSAPP_NUMBER = '+34600000000';
+export const WHATSAPP_NUMBER = '+34604199353';
 
 const DIGITS = WHATSAPP_NUMBER.replace(/[^0-9]/g, '');
 
