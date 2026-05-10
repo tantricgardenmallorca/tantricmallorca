@@ -33,6 +33,11 @@ export default function MasajistaDetail() {
         path={`/masajistas/${slug}`}
         title={pageTitle}
         description={desc}
+        person={{
+          name: displayName,
+          description: desc,
+          image: `https://tantricmallorca.com${masajista.images[0]}`,
+        }}
       />
 
       <article className="masajista-detail">
