@@ -1,4 +1,5 @@
 import { useTranslation } from '../i18n/useTranslation.js';
+import { whatsappLink } from '../data/whatsapp.js';
 import heroVideo from '../assets/hero-video.mp4';
 
 export default function Hero() {
@@ -20,7 +21,12 @@ export default function Hero() {
         <h1>{t('hero.title')}</h1>
         <p>{t('hero.lede')}</p>
         <div className="hero-ctas">
-          <a href="#contacto" className="btn btn-light">
+          <a
+            href={whatsappLink(t('whatsapp.default'))}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-light"
+          >
             {t('hero.ctaPrimary')}
           </a>
           <a href="#experiencias" className="btn btn-ghost">

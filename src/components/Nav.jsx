@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from '../i18n/useTranslation.js';
+import { whatsappLink } from '../data/whatsapp.js';
 import LangSwitcher from './LangSwitcher.jsx';
 
 const LINKS = [
@@ -30,9 +31,14 @@ export default function Nav() {
           </ul>
         </nav>
         <div className="nav-cta">
-          <Link to="/#contacto" className="btn btn-dark">
+          <a
+            href={whatsappLink(t('whatsapp.default'))}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-dark"
+          >
             {t('nav.book')}
-          </Link>
+          </a>
           <LangSwitcher />
           <button
             type="button"
