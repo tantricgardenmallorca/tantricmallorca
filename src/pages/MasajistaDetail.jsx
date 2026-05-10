@@ -36,7 +36,7 @@ export default function MasajistaDetail() {
         person={{
           name: displayName,
           description: desc,
-          image: `https://tantricmallorca.com${masajista.images[0]}`,
+          image: `https://www.tantricmallorca.com${masajista.images[0]}`,
         }}
       />
 

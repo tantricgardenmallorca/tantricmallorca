@@ -3,7 +3,7 @@ import { useTranslation } from '../i18n/useTranslation.js';
 import { SUPPORTED_LOCALES } from '../i18n/config.js';
 import { WHATSAPP_NUMBER } from '../data/whatsapp.js';
 
-const SITE_URL = 'https://tantricmallorca.com';
+const SITE_URL = 'https://www.tantricmallorca.com';
 const OG_LOCALES = {
   es: 'es_ES',
   en: 'en_GB',
