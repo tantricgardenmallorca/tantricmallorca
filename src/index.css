@@ -441,9 +441,28 @@ svg {
 
 /* ===== Ritual ===== */
 .ritual {
-  background: var(--c-cream-2);
+  position: relative;
+  background-color: #2a1a13;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: clamp(80px, 10vw, 140px) 0;
+  color: #fff;
+  isolation: isolate;
+}
+.ritual-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(63, 41, 32, 0.78) 0%,
+    rgba(63, 41, 32, 0.68) 100%
+  );
+  z-index: -1;
+}
+.ritual .container {
+  position: relative;
 }
 .ritual h2 {
   font-family: var(--display);
@@ -451,11 +470,12 @@ svg {
   font-weight: 400;
   margin-bottom: 24px;
   letter-spacing: -0.01em;
+  color: #fff;
 }
 .ritual p {
   font-size: 17px;
   line-height: 1.7;
-  color: var(--c-mute);
+  color: rgba(255, 255, 255, 0.92);
   max-width: 70ch;
   margin: 0 auto;
 }
