@@ -442,12 +442,12 @@ svg {
 /* ===== Ritual ===== */
 .ritual {
   position: relative;
-  background-color: #2a1a13;
+  background-color: #1f130d;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  padding: clamp(80px, 10vw, 140px) 0;
+  padding: clamp(140px, 16vw, 220px) 0;
   color: #fff;
   isolation: isolate;
 }
@@ -456,8 +456,8 @@ svg {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(63, 41, 32, 0.78) 0%,
-    rgba(63, 41, 32, 0.68) 100%
+    rgba(31, 19, 13, 0.88) 0%,
+    rgba(31, 19, 13, 0.82) 100%
   );
   z-index: -1;
 }
@@ -466,16 +466,17 @@ svg {
 }
 .ritual h2 {
   font-family: var(--display);
-  font-size: clamp(34px, 4.4vw, 60px);
+  font-size: clamp(42px, 5.6vw, 78px);
   font-weight: 400;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   letter-spacing: -0.01em;
   color: #fff;
+  line-height: 1.05;
 }
 .ritual p {
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(255, 255, 255, 0.96);
   max-width: 70ch;
   margin: 0 auto;
 }
@@ -506,8 +507,8 @@ svg {
 }
 .experiencia {
   display: grid;
-  grid-template-columns: 60px 1.4fr 2fr 130px;
-  gap: 28px;
+  grid-template-columns: 60px auto 1fr auto;
+  gap: 32px;
   padding: 32px 0;
   border-top: 1px solid rgba(24, 23, 28, 0.18);
   align-items: center;
@@ -527,6 +528,7 @@ svg {
   font-size: 22px;
   font-weight: 500;
   line-height: 1.15;
+  white-space: nowrap;
 }
 .experiencia-desc {
   font-size: 15px;
@@ -535,9 +537,10 @@ svg {
 }
 .experiencia-price {
   font-family: var(--display);
-  font-size: 22px;
+  font-size: 18px;
   text-align: right;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 @media (max-width: 820px) {
