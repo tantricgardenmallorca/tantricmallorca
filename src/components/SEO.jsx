@@ -47,7 +47,7 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     '@context': 'https://schema.org',
     '@type': ['HealthAndBeautyBusiness', 'LocalBusiness'],
     '@id': `${SITE_URL}/#business`,
-    name: 'Tantric Mallorca',
+    name: 'The Tantric Garden',
     description,
     url: SITE_URL,
     image: ogImage,
@@ -155,7 +155,7 @@ export default function SEO({
       <meta property="og:title" content={ogTitle} />
       <meta property="og:description" content={ogDescription} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content="Tantric Mallorca" />
+      <meta property="og:site_name" content="The Tantric Garden" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={ogTitle} />

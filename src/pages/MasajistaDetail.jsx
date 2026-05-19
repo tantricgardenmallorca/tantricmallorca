@@ -25,7 +25,7 @@ export default function MasajistaDetail() {
   const desc = t(`masajistas.people.${slug}.desc`);
   const bio = t(`masajistas.people.${slug}.bio`);
   const reservarMsg = t('masajistas.reserveMessage', { name: displayName });
-  const pageTitle = `${displayName} · Tantric Mallorca`;
+  const pageTitle = `${displayName} · The Tantric Garden`;
 
   return (
     <>

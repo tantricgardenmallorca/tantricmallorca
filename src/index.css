@@ -133,20 +133,12 @@ svg {
 }
 .nav-logo {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
 }
-.nav-logo .mark {
-  font-family: var(--display);
-  font-style: italic;
-  font-size: 22px;
-  font-weight: 500;
-}
-.nav-logo .sub {
-  font-size: 10px;
-  letter-spacing: 0.36em;
-  text-transform: uppercase;
-  color: var(--c-mute);
+.nav-logo-img {
+  height: 56px;
+  width: auto;
+  display: block;
 }
 .nav-links {
   display: flex;
@@ -391,12 +383,9 @@ svg {
 }
 .masajista {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 32px;
-  align-items: center;
-}
-.masajista--reverse {
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: stretch;
 }
 .masajista--reverse .masajista-img {
   order: 2;
@@ -406,7 +395,8 @@ svg {
   background: var(--c-cream-2);
   border-radius: 8px;
   overflow: hidden;
-  height: 540px;
+  aspect-ratio: 4 / 5;
+  min-height: 0;
 }
 .masajista-card {
   display: flex;
@@ -688,20 +678,17 @@ svg {
   align-items: start;
   margin-bottom: 56px;
 }
-.footer-brand .mark {
-  font-family: var(--display);
-  font-style: italic;
-  font-size: 44px;
-  letter-spacing: -0.01em;
+.footer-logo-img {
+  height: 96px;
+  width: auto;
   display: block;
-  line-height: 1;
 }
 .footer-brand .sub {
   font-size: 11px;
   letter-spacing: 0.42em;
   text-transform: uppercase;
   color: var(--c-terracotta);
-  margin-top: 10px;
+  margin-top: 16px;
   display: block;
 }
 .footer-col h4 {
@@ -1147,12 +1134,8 @@ svg {
     gap: 10px;
     padding: 14px var(--pad);
   }
-  .nav-logo .mark {
-    font-size: 19px;
-  }
-  .nav-logo .sub {
-    font-size: 9px;
-    letter-spacing: 0.30em;
+  .nav-logo-img {
+    height: 42px;
   }
   .nav-cta {
     gap: 8px;
@@ -1239,7 +1222,8 @@ svg {
     gap: 36px;
   }
   .masajista-img {
-    height: 380px;
+    aspect-ratio: 4 / 5;
+    height: auto;
   }
   .masajista-card {
     padding: 14px 8px 4px;
@@ -1351,8 +1335,8 @@ svg {
   .footer {
     padding: 56px 0 28px;
   }
-  .footer-brand .mark {
-    font-size: 32px;
+  .footer-logo-img {
+    height: 72px;
   }
   .footer-brand .sub {
     font-size: 10px;

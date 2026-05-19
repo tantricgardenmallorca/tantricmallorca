@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Tantric Mallorca — Massage Tantrique Professionnel à Majorque",
+    "title": "The Tantric Garden — Massage Tantrique Professionnel à Majorque",
     "description": "Centre de massage tantrique à Majorque. Sutra Massage, Double Climax, Striptease Divan et Energy Deluxe avec des masseuses professionnelles. Sur rendez-vous uniquement.",
-    "ogTitle": "Tantric Mallorca — Quand la peau devient le langage de l'âme",
+    "ogTitle": "The Tantric Garden — Quand la peau devient le langage de l'âme",
     "ogDescription": "Rituels de plaisir absolu au cœur de Majorque. Sutra Massage, Double Climax, Striptease et Energy Deluxe."
   },
   "nav": {
@@ -24,7 +24,7 @@
     "lede": "Nos spécialistes ne sont pas seulement des thérapeutes : ce sont des guides certifiées dans les arts somatiques et tantriques. Choisies pour leur haute vibration et leur écoute empathique, elles tiennent l'espace pour que vous puissiez vous laisser aller.",
     "viewMore": "En savoir plus",
     "back": "← Retour aux Masseuses",
-    "eyebrow": "Tantric Mallorca · Masseuse",
+    "eyebrow": "The Tantric Garden · Masseuse",
     "bookWhatsApp": "Réserver sur WhatsApp",
     "bookShort": "Réserver",
     "servicesTitle": "Services disponibles",
@@ -40,7 +40,7 @@
         "bio": [
           "Martina accompagne depuis plus de dix ans des personnes à reconnecter avec leur corps à travers le massage conscient. Son travail allie respiration, énergie et toucher soutenu pour créer un espace de profonde confiance.",
           "Son approche est somatique et sensorielle : chaque séance s'adapte au rythme naturel du corps, sans hâte, jusqu'à ce que le système nerveux trouve son repos.",
-          "Elle reçoit à Tantric Mallorca sur rendez-vous, en format individuel ou en couple, dans une atmosphère intime soignée dans le moindre détail."
+          "Elle reçoit à The Tantric Garden sur rendez-vous, en format individuel ou en couple, dans une atmosphère intime soignée dans le moindre détail."
         ]
       },
       "melany": {
@@ -58,7 +58,7 @@
         "bio": [
           "Ela réunit des années de pratique en massage tantrique, thérapies holistiques et disciplines corporelles. Son travail invite à habiter le corps depuis une sensibilité élargie.",
           "Elle conçoit chaque séance comme un rituel unique : lecture du corps, respiration, toucher conscient et silence. L'intention reste la même : que le corps se souvienne de sa capacité de plaisir et de repos.",
-          "Elle reçoit sur rendez-vous à Tantric Mallorca, en sessions individuelles ou en couple, avec des matériaux nobles et un soin constant de l'ambiance."
+          "Elle reçoit sur rendez-vous à The Tantric Garden, en sessions individuelles ou en couple, avec des matériaux nobles et un soin constant de l'ambiance."
         ]
       },
       "dulce-maria": {
@@ -67,7 +67,7 @@
         "bio": [
           "Dulce María apporte un regard serein et précis au massage tantrique. Sa pratique allie une technique corporelle contemporaine à la sagesse du toucher conscient, pour un voyage sensoriel posé et élégant.",
           "Chaque séance se construit dans l'écoute : la température, le rythme de la respiration et le silence partagé donnent la direction. Son intention est que le corps trouve son propre repos, sans rien forcer.",
-          "Elle reçoit à Tantric Mallorca sur rendez-vous, en séances individuelles et pour les couples, dans une atmosphère intime préparée avec soin."
+          "Elle reçoit à The Tantric Garden sur rendez-vous, en séances individuelles et pour les couples, dans une atmosphère intime préparée avec soin."
         ]
       }
     },
@@ -80,7 +80,7 @@
   },
   "ritual": {
     "title": "Le Rituel de Pleine Présence",
-    "body": "Nous ne proposons pas des massages conventionnels ; nous concevons des rituels de plaisir absolu. À Tantric Mallorca, chaque séance est un voyage sensoriel créé pour éveiller votre corps et libérer votre énergie la plus profonde. Le toucher conscient, le parfum de nos huiles et une atmosphère d'intimité totale s'unissent pour que vous viviez la relaxation dans sa forme la plus haute et la plus voluptueuse."
+    "body": "Nous ne proposons pas des massages conventionnels ; nous concevons des rituels de plaisir absolu. À The Tantric Garden, chaque séance est un voyage sensoriel créé pour éveiller votre corps et libérer votre énergie la plus profonde. Le toucher conscient, le parfum de nos huiles et une atmosphère d'intimité totale s'unissent pour que vous viviez la relaxation dans sa forme la plus haute et la plus voluptueuse."
   },
   "experiencias": {
     "title": "Nos\nexpériences",
@@ -122,7 +122,7 @@
   },
   "cta": {
     "title": "Êtes-vous prêt·e ?",
-    "body": "Il existe des sensations que votre corps n'a pas encore découvertes. À Tantric Mallorca, nous créons le décor d'intimité et de désir nécessaire pour que vous puissiez explorer le plaisir sans limites.",
+    "body": "Il existe des sensations que votre corps n'a pas encore découvertes. À The Tantric Garden, nous créons le décor d'intimité et de désir nécessaire pour que vous puissiez explorer le plaisir sans limites.",
     "button": "Réserver l'expérience"
   },
   "footer": {
@@ -131,11 +131,11 @@
     "terms": "Conditions générales",
     "privacy": "Politique de confidentialité",
     "cookies": "Avis cookies",
-    "fine1": "Tantric Mallorca opère sur rendez-vous à Majorque, Îles Baléares. Services réservés aux personnes majeures (18+).",
-    "fine2": "© {{year}} Tantric Mallorca. Tous droits réservés."
+    "fine1": "The Tantric Garden opère sur rendez-vous à Majorque, Îles Baléares. Services réservés aux personnes majeures (18+).",
+    "fine2": "© {{year}} The Tantric Garden. Tous droits réservés."
   },
   "whatsapp": {
-    "default": "Bonjour Tantric Mallorca ! J'aimerais réserver une expérience, pourriez-vous me donner plus d'informations ?",
+    "default": "Bonjour The Tantric Garden ! J'aimerais réserver une expérience, pourriez-vous me donner plus d'informations ?",
     "aria": "Contacter via WhatsApp"
   },
   "lightbox": {

@@ -1,4 +1,5 @@
 import { useTranslation } from '../i18n/useTranslation.js';
+import logo from '../assets/logo.svg';
 
 const LEGAL_KEYS = ['footer.terms', 'footer.privacy', 'footer.cookies'];
 const YEAR = new Date().getFullYear();
@@ -10,7 +11,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <span className="mark">Tantric Mallorca</span>
+            <img src={logo} alt="The Tantric Garden" className="footer-logo-img" />
             <span className="sub">{t('footer.tagline')}</span>
           </div>
           <div className="footer-col">

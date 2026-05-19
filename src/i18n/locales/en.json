@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Tantric Mallorca — Professional Tantric Massage in Mallorca",
+    "title": "The Tantric Garden — Professional Tantric Massage in Mallorca",
     "description": "Tantric massage centre in Mallorca. Sutra Massage, Double Climax, Striptease Divan and Energy Deluxe with professional masseuses. By appointment only.",
-    "ogTitle": "Tantric Mallorca — Where the skin becomes the language of the soul",
+    "ogTitle": "The Tantric Garden — Where the skin becomes the language of the soul",
     "ogDescription": "Rituals of absolute pleasure in the heart of Mallorca. Sutra Massage, Double Climax, Striptease and Energy Deluxe."
   },
   "nav": {
@@ -24,7 +24,7 @@
     "lede": "Our specialists are not only therapists, they are certified guides in somatic and tantric arts. Selected for their high vibration and empathic listening, they hold the space so you can truly let go.",
     "viewMore": "Read more",
     "back": "← Back to Masseuses",
-    "eyebrow": "Tantric Mallorca · Masseuse",
+    "eyebrow": "The Tantric Garden · Masseuse",
     "bookWhatsApp": "Book on WhatsApp",
     "bookShort": "Book",
     "servicesTitle": "Available services",
@@ -40,7 +40,7 @@
         "bio": [
           "Martina has spent more than a decade guiding people back into their bodies through conscious massage. Her work blends breath, energy and sustained touch to create a space of deep trust.",
           "Her approach is somatic and sensorial: each session adapts to the body's natural rhythm, with no rush, until the nervous system finds its rest.",
-          "She receives at Tantric Mallorca by appointment, in individual or couples format, in an intimate atmosphere cared for in every detail."
+          "She receives at The Tantric Garden by appointment, in individual or couples format, in an intimate atmosphere cared for in every detail."
         ]
       },
       "melany": {
@@ -58,7 +58,7 @@
         "bio": [
           "Ela brings together years of practice in tantric massage, holistic therapies and body disciplines. Her work invites you to inhabit the body from an expanded sensitivity.",
           "She designs each session as a unique ritual: reading the body, breath, conscious touch and silence. The intention is always the same: that the body remembers its capacity for pleasure and rest.",
-          "She receives by appointment at Tantric Mallorca, in individual or couples sessions, with noble materials and a sustained care of the atmosphere."
+          "She receives by appointment at The Tantric Garden, in individual or couples sessions, with noble materials and a sustained care of the atmosphere."
         ]
       },
       "dulce-maria": {
@@ -67,7 +67,7 @@
         "bio": [
           "Dulce María brings a calm and precise approach to tantric massage. Her practice blends contemporary bodywork technique with the wisdom of conscious touch, creating an unhurried, elegant sensory journey.",
           "Each session is shaped by listening: temperature, the rhythm of breath and shared silence set the direction. Her intention is that the body finds its own rest, without forcing anything.",
-          "She works at Tantric Mallorca by appointment, in individual sessions and for couples, in an intimate atmosphere prepared with care."
+          "She works at The Tantric Garden by appointment, in individual sessions and for couples, in an intimate atmosphere prepared with care."
         ]
       }
     },
@@ -80,7 +80,7 @@
   },
   "ritual": {
     "title": "The Ritual of Complete Presence",
-    "body": "We don't offer conventional massages; we design rituals of absolute pleasure. At Tantric Mallorca, every session is a sensory journey created to awaken your body and release your deepest energy. Conscious touch, the aroma of our oils and an atmosphere of total privacy come together so you can experience relaxation in its highest, most pleasurable form."
+    "body": "We don't offer conventional massages; we design rituals of absolute pleasure. At The Tantric Garden, every session is a sensory journey created to awaken your body and release your deepest energy. Conscious touch, the aroma of our oils and an atmosphere of total privacy come together so you can experience relaxation in its highest, most pleasurable form."
   },
   "experiencias": {
     "title": "Our\nexperiences",
@@ -122,7 +122,7 @@
   },
   "cta": {
     "title": "Are you ready?",
-    "body": "There are sensations your body has not yet discovered. At Tantric Mallorca we create the privacy and the desire necessary for you to explore pleasure without limits.",
+    "body": "There are sensations your body has not yet discovered. At The Tantric Garden we create the privacy and the desire necessary for you to explore pleasure without limits.",
     "button": "Book your experience"
   },
   "footer": {
@@ -131,11 +131,11 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cookies": "Cookie Notice",
-    "fine1": "Tantric Mallorca operates by appointment only in Mallorca, Balearic Islands. Services for adults aged 18+.",
-    "fine2": "© {{year}} Tantric Mallorca. All rights reserved."
+    "fine1": "The Tantric Garden operates by appointment only in Mallorca, Balearic Islands. Services for adults aged 18+.",
+    "fine2": "© {{year}} The Tantric Garden. All rights reserved."
   },
   "whatsapp": {
-    "default": "Hello Tantric Mallorca! I'd like to book an experience — could you share more information?",
+    "default": "Hello The Tantric Garden! I'd like to book an experience — could you share more information?",
     "aria": "Contact via WhatsApp"
   },
   "lightbox": {

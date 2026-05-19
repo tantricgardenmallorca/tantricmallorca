@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from '../i18n/useTranslation.js';
 import { whatsappLink } from '../data/whatsapp.js';
 import LangSwitcher from './LangSwitcher.jsx';
+import logo from '../assets/logo.svg';
 
 const LINKS = [
   { key: 'nav.about', href: '/#nosotros' },
@@ -17,9 +18,8 @@ export default function Nav() {
   return (
     <header className="nav">
       <div className="nav-inner">
-        <Link to="/" className="nav-logo" aria-label="Tantric Mallorca">
-          <span className="mark">Tantric</span>
-          <span className="sub">Mallorca</span>
+        <Link to="/" className="nav-logo" aria-label="The Tantric Garden">
+          <img src={logo} alt="The Tantric Garden" className="nav-logo-img" />
         </Link>
         <nav>
           <ul className="nav-links">
