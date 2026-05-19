@@ -34,11 +34,11 @@
     "next": "Next photo",
     "goTo": "Go to photo {{n}}",
     "people": {
-      "ivonny": {
-        "displayName": "Ivonny",
+      "martina": {
+        "displayName": "Martina",
         "desc": "Expert in tantric massage and deep relaxation techniques.",
         "bio": [
-          "Ivonny has spent more than a decade guiding people back into their bodies through conscious massage. Her work blends breath, energy and sustained touch to create a space of deep trust.",
+          "Martina has spent more than a decade guiding people back into their bodies through conscious massage. Her work blends breath, energy and sustained touch to create a space of deep trust.",
           "Her approach is somatic and sensorial: each session adapts to the body's natural rhythm, with no rush, until the nervous system finds its rest.",
           "She receives at Tantric Mallorca by appointment, in individual or couples format, in an intimate atmosphere cared for in every detail."
         ]
@@ -52,20 +52,20 @@
           "She works in Mallorca by appointment. Each ritual is carefully prepared: oils, aromas, music and warm light, so that the body can let go."
         ]
       },
-      "dulce-maria": {
-        "displayName": "Dulce María",
+      "ela": {
+        "displayName": "Ela",
         "desc": "Expert in tantric massage and deep relaxation techniques.",
         "bio": [
-          "Dulce María brings together years of practice in tantric massage, holistic therapies and body disciplines. Her work invites you to inhabit the body from an expanded sensitivity.",
+          "Ela brings together years of practice in tantric massage, holistic therapies and body disciplines. Her work invites you to inhabit the body from an expanded sensitivity.",
           "She designs each session as a unique ritual: reading the body, breath, conscious touch and silence. The intention is always the same: that the body remembers its capacity for pleasure and rest.",
           "She receives by appointment at Tantric Mallorca, in individual or couples sessions, with noble materials and a sustained care of the atmosphere."
         ]
       },
-      "camila": {
-        "displayName": "Camila",
+      "dulce-maria": {
+        "displayName": "Dulce María",
         "desc": "Expert in tantric massage and deep relaxation techniques.",
         "bio": [
-          "Camila brings a calm and precise approach to tantric massage. Her practice blends contemporary bodywork technique with the wisdom of conscious touch, creating an unhurried, elegant sensory journey.",
+          "Dulce María brings a calm and precise approach to tantric massage. Her practice blends contemporary bodywork technique with the wisdom of conscious touch, creating an unhurried, elegant sensory journey.",
           "Each session is shaped by listening: temperature, the rhythm of breath and shared silence set the direction. Her intention is that the body finds its own rest, without forcing anything.",
           "She works at Tantric Mallorca by appointment, in individual sessions and for couples, in an intimate atmosphere prepared with care."
         ]

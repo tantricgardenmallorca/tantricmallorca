@@ -34,11 +34,11 @@
     "next": "Photo suivante",
     "goTo": "Aller à la photo {{n}}",
     "people": {
-      "ivonny": {
-        "displayName": "Ivonny",
+      "martina": {
+        "displayName": "Martina",
         "desc": "Experte en massage tantrique et techniques de relaxation profonde.",
         "bio": [
-          "Ivonny accompagne depuis plus de dix ans des personnes à reconnecter avec leur corps à travers le massage conscient. Son travail allie respiration, énergie et toucher soutenu pour créer un espace de profonde confiance.",
+          "Martina accompagne depuis plus de dix ans des personnes à reconnecter avec leur corps à travers le massage conscient. Son travail allie respiration, énergie et toucher soutenu pour créer un espace de profonde confiance.",
           "Son approche est somatique et sensorielle : chaque séance s'adapte au rythme naturel du corps, sans hâte, jusqu'à ce que le système nerveux trouve son repos.",
           "Elle reçoit à Tantric Mallorca sur rendez-vous, en format individuel ou en couple, dans une atmosphère intime soignée dans le moindre détail."
         ]
@@ -52,20 +52,20 @@
           "Elle officie à Majorque sur rendez-vous. Chaque rituel est préparé avec soin : huiles, parfums, musique et lumière chaude, pour que le corps puisse se livrer."
         ]
       },
-      "dulce-maria": {
-        "displayName": "Dulce María",
+      "ela": {
+        "displayName": "Ela",
         "desc": "Experte en massage tantrique et techniques de relaxation profonde.",
         "bio": [
-          "Dulce María réunit des années de pratique en massage tantrique, thérapies holistiques et disciplines corporelles. Son travail invite à habiter le corps depuis une sensibilité élargie.",
+          "Ela réunit des années de pratique en massage tantrique, thérapies holistiques et disciplines corporelles. Son travail invite à habiter le corps depuis une sensibilité élargie.",
           "Elle conçoit chaque séance comme un rituel unique : lecture du corps, respiration, toucher conscient et silence. L'intention reste la même : que le corps se souvienne de sa capacité de plaisir et de repos.",
           "Elle reçoit sur rendez-vous à Tantric Mallorca, en sessions individuelles ou en couple, avec des matériaux nobles et un soin constant de l'ambiance."
         ]
       },
-      "camila": {
-        "displayName": "Camila",
+      "dulce-maria": {
+        "displayName": "Dulce María",
         "desc": "Experte en massage tantrique et techniques de relaxation profonde.",
         "bio": [
-          "Camila apporte un regard serein et précis au massage tantrique. Sa pratique allie une technique corporelle contemporaine à la sagesse du toucher conscient, pour un voyage sensoriel posé et élégant.",
+          "Dulce María apporte un regard serein et précis au massage tantrique. Sa pratique allie une technique corporelle contemporaine à la sagesse du toucher conscient, pour un voyage sensoriel posé et élégant.",
           "Chaque séance se construit dans l'écoute : la température, le rythme de la respiration et le silence partagé donnent la direction. Son intention est que le corps trouve son propre repos, sans rien forcer.",
           "Elle reçoit à Tantric Mallorca sur rendez-vous, en séances individuelles et pour les couples, dans une atmosphère intime préparée avec soin."
         ]

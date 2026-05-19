@@ -1,12 +1,12 @@
-import ivonny1 from '../assets/photos/ivonny-1.jpg';
-import ivonny2 from '../assets/photos/ivonny-2.jpg';
+import martina1 from '../assets/photos/ivonny-1.jpg';
+import martina2 from '../assets/photos/ivonny-2.jpg';
 import melany1 from '../assets/photos/melany-1.jpg';
 import melany2 from '../assets/photos/melany-2.jpg';
 import melany3 from '../assets/photos/melany-3.jpg';
-import dulce1 from '../assets/photos/dulce-1.jpg';
-import dulce2 from '../assets/photos/dulce-2.jpg';
-import camila1 from '../assets/photos/camila-1.jpg';
-import camila2 from '../assets/photos/camila-2.jpg';
+import ela1 from '../assets/photos/dulce-1.jpg';
+import ela2 from '../assets/photos/dulce-2.jpg';
+import dulceMaria1 from '../assets/photos/camila-1.jpg';
+import dulceMaria2 from '../assets/photos/camila-2.jpg';
 
 const SERVICIOS_KEYS = [
   { key: 'sutra', duracion: '30 min · 1 h', precio: '80 € / 150 €' },
@@ -23,21 +23,21 @@ export const MASAJISTAS = [
     servicios: SERVICIOS_KEYS,
   },
   {
-    slug: 'ivonny',
-    name: 'Ivonny',
-    images: [ivonny1, ivonny2],
+    slug: 'martina',
+    name: 'Martina',
+    images: [martina1, martina2],
+    servicios: SERVICIOS_KEYS,
+  },
+  {
+    slug: 'ela',
+    name: 'Ela',
+    images: [ela1, ela2],
     servicios: SERVICIOS_KEYS,
   },
   {
     slug: 'dulce-maria',
     name: 'Dulce María',
-    images: [dulce1, dulce2],
-    servicios: SERVICIOS_KEYS,
-  },
-  {
-    slug: 'camila',
-    name: 'Camila',
-    images: [camila1, camila2],
+    images: [dulceMaria1, dulceMaria2],
     servicios: SERVICIOS_KEYS,
   },
 ];

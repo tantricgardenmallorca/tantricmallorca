@@ -10,9 +10,9 @@ const ssrDir = path.join(root, 'dist-ssr');
 const ROUTES = [
   '/',
   '/masajistas/melany',
-  '/masajistas/ivonny',
+  '/masajistas/martina',
+  '/masajistas/ela',
   '/masajistas/dulce-maria',
-  '/masajistas/camila',
 ];
 
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');

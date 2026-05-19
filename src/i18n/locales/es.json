@@ -34,11 +34,11 @@
     "next": "Foto siguiente",
     "goTo": "Ir a la foto {{n}}",
     "people": {
-      "ivonny": {
-        "displayName": "Ivonny",
+      "martina": {
+        "displayName": "Martina",
         "desc": "Experta en masaje tántrico y técnicas de relajación profunda.",
         "bio": [
-          "Ivonny lleva más de una década acompañando a personas a reconectar con su cuerpo a través del masaje consciente. Su trabajo combina respiración, energía y tacto sostenido para crear un espacio de profunda confianza.",
+          "Martina lleva más de una década acompañando a personas a reconectar con su cuerpo a través del masaje consciente. Su trabajo combina respiración, energía y tacto sostenido para crear un espacio de profunda confianza.",
           "Su enfoque es somático y sensorial: cada sesión se adapta al ritmo natural del cuerpo, sin prisa, hasta que el sistema nervioso encuentra su descanso.",
           "Recibe en Tantric Mallorca con cita previa, en formato individual o de pareja, en una atmósfera íntima y cuidada al detalle."
         ]
@@ -52,20 +52,20 @@
           "Atiende en Mallorca con cita previa. Cada ritual se prepara cuidadosamente: aceites, aromas, música y luz tibia para que el cuerpo se entregue."
         ]
       },
-      "dulce-maria": {
-        "displayName": "Dulce María",
+      "ela": {
+        "displayName": "Ela",
         "desc": "Experta en masaje tántrico y técnicas de relajación profunda.",
         "bio": [
-          "Dulce María combina años de práctica en masaje tántrico, terapias holísticas y disciplinas corporales. Su trabajo invita a habitar el cuerpo desde una sensibilidad expandida.",
+          "Ela combina años de práctica en masaje tántrico, terapias holísticas y disciplinas corporales. Su trabajo invita a habitar el cuerpo desde una sensibilidad expandida.",
           "Diseña cada sesión como un ritual único: lectura del cuerpo, respiración, tacto consciente y silencio. La intención es siempre la misma: que el cuerpo recuerde su capacidad de placer y descanso.",
           "Recibe con cita previa en Tantric Mallorca, en sesiones individuales o de pareja, con materiales nobles y un cuidado sostenido del ambiente."
         ]
       },
-      "camila": {
-        "displayName": "Camila",
+      "dulce-maria": {
+        "displayName": "Dulce María",
         "desc": "Experta en masaje tántrico y técnicas de relajación profunda.",
         "bio": [
-          "Camila aporta una mirada serena y precisa al masaje tántrico. Su práctica combina técnica corporal contemporánea con la sabiduría del tacto consciente, creando un viaje sensorial pausado y elegante.",
+          "Dulce María aporta una mirada serena y precisa al masaje tántrico. Su práctica combina técnica corporal contemporánea con la sabiduría del tacto consciente, creando un viaje sensorial pausado y elegante.",
           "Cada sesión se construye desde la escucha: la temperatura, el ritmo de la respiración y el silencio compartido marcan la dirección. Su intención es que el cuerpo encuentre su propio descanso, sin forzar nada.",
           "Atiende en Tantric Mallorca con cita previa, en sesiones individuales y para parejas, en una atmósfera íntima preparada con cuidado."
         ]

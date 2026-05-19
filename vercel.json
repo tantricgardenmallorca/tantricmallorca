@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/masajistas/ivonny", "destination": "/masajistas/martina", "permanent": true },
+    { "source": "/masajistas/camila", "destination": "/masajistas/dulce-maria", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
