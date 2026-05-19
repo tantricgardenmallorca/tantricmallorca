@@ -377,14 +377,14 @@ svg {
 .masajistas-list {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 24px;
   max-width: 1100px;
   margin: 0 auto;
 }
 .masajista {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  gap: 32px;
   align-items: stretch;
 }
 .masajista--reverse .masajista-img {
@@ -395,7 +395,7 @@ svg {
   background: var(--c-cream-2);
   border-radius: 8px;
   overflow: hidden;
-  aspect-ratio: 4 / 5;
+  height: clamp(420px, 46vw, 520px);
   min-height: 0;
 }
 .masajista-card {
