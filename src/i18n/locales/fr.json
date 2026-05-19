@@ -88,23 +88,23 @@
     "items": {
       "sutra": {
         "name": "Sutra Massage",
-        "desc": "Massage nudiste interactif au cours duquel vous réaliserez des postures du Kamasutra avec la masseuse.",
-        "price": "À partir de 80 €"
+        "desc": "Une expérience intime au naturel où vous rejouez des postures du Kamasutra aux côtés de la masseuse.",
+        "price": "30 min · 80 €  /  1 h · 150 €"
       },
       "doble-climax": {
         "name": "Double Climax Massage",
-        "desc": "Double moment de plaisir où le massage commence sous la douche.",
-        "price": "200 €"
+        "desc": "Deux moments de plaisir dans un même rituel : la séance s'amorce sous l'eau de la douche.",
+        "price": "1 h · 200 €"
       },
       "striptease": {
         "name": "Striptease Divan",
-        "desc": "Striptease sensuel et exotique avec postures et lingerie sur le divan.",
-        "price": "250 €"
+        "desc": "Un striptease chargé de sensualité et d'exotisme, avec postures et lingerie sur le divan.",
+        "price": "70 min · 250 €"
       },
       "energy-deluxe": {
         "name": "Energy Deluxe",
-        "desc": "La combinaison parfaite de tous les précédents plus une irrésistible tentation.",
-        "price": "300 €"
+        "desc": "La fusion parfaite de toutes les expériences précédentes accompagnée d'une tentation irrésistible.",
+        "price": "70 min · 300 €"
       }
     }
   },
