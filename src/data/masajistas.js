@@ -9,10 +9,10 @@ import dulceMaria1 from '../assets/photos/camila-1.jpg';
 import dulceMaria2 from '../assets/photos/camila-2.jpg';
 
 const SERVICIOS_KEYS = [
-  { key: 'sutra', duracion: '30 min · 1 h', precio: '80 € / 150 €' },
-  { key: 'doble-climax', duracion: '1 h', precio: '200 €' },
-  { key: 'striptease', duracion: '70 min', precio: '250 €' },
-  { key: 'energy-deluxe', duracion: '70 min', precio: '300 €' },
+  { key: 'sutra', duracion: '30 min · 1 h', precio: '80 € / 150 €' },
+  { key: 'doble-climax', duracion: '1 h', precio: '200 €' },
+  { key: 'striptease', duracion: '70 min', precio: '250 €' },
+  { key: 'energy-deluxe', duracion: '70 min', precio: '300 €' },
 ];
 
 export const MASAJISTAS = [
