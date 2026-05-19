@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "sutra": "Sutra der Begegnung",
-      "doble-climax": "Doppelter Climax Ritual",
-      "striptease": "Schleier des Diwans",
-      "energy-deluxe": "Höchstes Ritual"
+      "sutra": "Lotus-Ritual",
+      "doble-climax": "Doppelte Flut",
+      "striptease": "Schleiergarten",
+      "energy-deluxe": "Imperiales Ritual"
     }
   },
   "ritual": {
@@ -87,24 +87,24 @@
     "lede": "Jedes Erlebnis wird mit lokalen Materialien, ruhigem Rhythmus und ungeteilter Aufmerksamkeit für dich vorbereitet. Einzel- und Paarsitzungen, ausschließlich nach Vereinbarung.",
     "items": {
       "sutra": {
-        "name": "Sutra der Begegnung",
-        "desc": "Eine intime Nacktbegegnung, bei der Körper und Masseurin gemeinsam die Stellungen des Kamasutra erkunden.",
-        "price": "30 Min. · 80 €  /  60 Min. · 150 €"
+        "name": "Lotus-Ritual",
+        "desc": "Eine intime Begegnung, inspiriert von tantrischer Kunst, in der Bewegung, Verbindung und unterschiedliche Stellungen eine sinnliche Reise voller Vertrautheit und nackter Entdeckung erschaffen.",
+        "price": "30 Min. · 80 €  /  60 Min. · 150 €"
       },
       "doble-climax": {
-        "name": "Doppelter Climax Ritual",
-        "desc": "Zwei Höhepunkte innerhalb einer einzigen Reise: Das Ritual beginnt mit einer Taufe aus warmem Wasser, ein sinnliches Vorspiel zum kommenden Genuss.",
-        "price": "60 Min. · 200 €"
+        "name": "Doppelte Flut",
+        "desc": "Eine zweiteilige Sinnesreise, die mit einem zarten Wasserritual beginnt und den Körper auf ein intensives, umhüllendes und tief lustvolles Erlebnis vorbereitet.",
+        "price": "60 Min. · 200 €"
       },
       "striptease": {
-        "name": "Schleier des Diwans",
+        "name": "Schleiergarten",
         "desc": "Ein sinnliches und erotisches Schauspiel auf dem Diwan, bei dem Stoffe und Dessous langsam fallen wie Schleier, die den Weg zum Verlangen öffnen.",
-        "price": "70 Min. · 250 €"
+        "price": "70 Min. · 250 €"
       },
       "energy-deluxe": {
-        "name": "Höchstes Ritual",
-        "desc": "Das vollständigste Ritual: Es vereint das nackte Kamasutra, die Taufe aus warmem Wasser und den Tanz der Schleier in einer einzigen Reise, gekrönt von einer letzten Versuchung, die jeden deiner Sinne erweckt.",
-        "price": "70 Min. · 300 €"
+        "name": "Imperiales Ritual",
+        "desc": "Unser exklusivstes Erlebnis: eine Reise, die Bewegung, Wasser, Schleier und Verbindung in einem Ritual vereint, das alle Sinne weckt.",
+        "price": "70 Min. · 300 €"
       }
     }
   },

@@ -21,23 +21,23 @@ const GEO = {
 
 const SERVICE_CATALOG = [
   {
-    name: 'Sutra del Encuentro',
-    description: 'Masaje tántrico introductorio con posturas del Kamasutra. 30 min o 60 min.',
+    name: 'Ritual del Loto',
+    description: 'Encuentro tántrico íntimo con movimiento, conexión y posturas. 30 min o 60 min.',
     priceFrom: 80,
   },
   {
-    name: 'Doble Climax Ritual',
-    description: 'Ritual tántrico de 60 min con doble culminación, iniciado con bautismo de agua tibia.',
+    name: 'Doble Marea',
+    description: 'Viaje sensorial en dos momentos iniciado con un delicado ritual de agua. 60 min.',
     priceFrom: 200,
   },
   {
-    name: 'Velos del Diván',
-    description: 'Experiencia sensorial y erótica de 70 minutos con lencería sobre el diván.',
+    name: 'Jardín de Velos',
+    description: 'Danza sensual y erótica de 70 min sobre el diván, entre velos y lencería.',
     priceFrom: 250,
   },
   {
-    name: 'Ritual Supremo',
-    description: 'Ritual tántrico premium de 70 minutos que reúne Kamasutra, agua y velos.',
+    name: 'Ritual Imperial',
+    description: 'Experiencia premium de 70 min que integra movimiento, agua, velos y conexión.',
     priceFrom: 300,
   },
 ];

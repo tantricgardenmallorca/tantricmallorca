@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "sutra": "Sutra del Encuentro",
-      "doble-climax": "Doble Climax Ritual",
-      "striptease": "Velos del Diván",
-      "energy-deluxe": "Ritual Supremo"
+      "sutra": "Ritual del Loto",
+      "doble-climax": "Doble Marea",
+      "striptease": "Jardín de Velos",
+      "energy-deluxe": "Ritual Imperial"
     }
   },
   "ritual": {
@@ -87,24 +87,24 @@
     "lede": "Cada experiencia se prepara con materiales locales, ritmo pausado y la atención puesta enteramente en ti. Sesiones individuales y de pareja, con cita previa.",
     "items": {
       "sutra": {
-        "name": "Sutra del Encuentro",
-        "desc": "Un encuentro íntimo al desnudo donde el cuerpo y la masajista exploran juntos las posturas del Kamasutra.",
-        "price": "30 min · 80 €  /  60 min · 150 €"
+        "name": "Ritual del Loto",
+        "desc": "Un encuentro íntimo inspirado en el arte tántrico, donde el movimiento, la conexión y distintas posturas crean un recorrido sensorial lleno de complicidad y exploración al desnudo.",
+        "price": "30 min · 80 €  /  60 min · 150 €"
       },
       "doble-climax": {
-        "name": "Doble Climax Ritual",
-        "desc": "Dos culminaciones dentro de un mismo viaje: el ritual se inaugura con un bautismo de agua tibia, antesala sensorial del placer que vendrá.",
-        "price": "60 min · 200 €"
+        "name": "Doble Marea",
+        "desc": "Un viaje sensorial de dos momentos que comienza con un delicado ritual de agua, preparando el cuerpo para una experiencia intensa, envolvente y profundamente placentera.",
+        "price": "60 min · 200 €"
       },
       "striptease": {
-        "name": "Velos del Diván",
-        "desc": "Una danza sensorial y erótica sobre el diván, donde telas y lencería se desprenden con calma como velos que abren el camino al deseo.",
-        "price": "70 min · 250 €"
+        "name": "Jardín de Velos",
+        "desc": "Una danza sensual y erótica sobre el diván, donde telas y lencería se desprenden con calma como velos que abren el camino al deseo.",
+        "price": "70 min · 250 €"
       },
       "energy-deluxe": {
-        "name": "Ritual Supremo",
-        "desc": "El ritual más completo: reúne el Kamasutra al desnudo, el bautismo de agua tibia y la danza de los velos en un solo viaje, coronado por una tentación final que despierta cada uno de tus sentidos.",
-        "price": "70 min · 300 €"
+        "name": "Ritual Imperial",
+        "desc": "Nuestra experiencia más exclusiva: un recorrido que integra movimiento, agua, velos y conexión en un ritual diseñado para despertar todos los sentidos.",
+        "price": "70 min · 300 €"
       }
     }
   },
