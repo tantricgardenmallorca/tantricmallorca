@@ -22,12 +22,12 @@ const GEO = {
 const SERVICE_CATALOG = [
   {
     name: 'Sutra del Encuentro',
-    description: 'Masaje tántrico introductorio con posturas del Kamasutra. 30 min o 1 h.',
+    description: 'Masaje tántrico introductorio con posturas del Kamasutra. 30 min o 60 min.',
     priceFrom: 80,
   },
   {
     name: 'Doble Climax Ritual',
-    description: 'Ritual tántrico de 1 hora con doble culminación, iniciado con bautismo de agua tibia.',
+    description: 'Ritual tántrico de 60 min con doble culminación, iniciado con bautismo de agua tibia.',
     priceFrom: 200,
   },
   {
