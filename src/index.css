@@ -384,7 +384,7 @@ svg {
 .masajista {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  gap: 48px;
   align-items: stretch;
 }
 .masajista--reverse .masajista-img {
