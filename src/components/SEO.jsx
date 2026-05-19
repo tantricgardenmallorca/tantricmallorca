@@ -21,23 +21,23 @@ const GEO = {
 
 const SERVICE_CATALOG = [
   {
-    name: 'Sutra Massage',
-    description: 'Masaje tántrico introductorio. 30 min o 1 h.',
+    name: 'Sutra del Encuentro',
+    description: 'Masaje tántrico introductorio con posturas del Kamasutra. 30 min o 1 h.',
     priceFrom: 80,
   },
   {
-    name: 'Doble Climax Massage',
-    description: 'Masaje tántrico de 1 hora con doble culminación.',
+    name: 'Doble Climax Ritual',
+    description: 'Ritual tántrico de 1 hora con doble culminación, iniciado con bautismo de agua tibia.',
     priceFrom: 200,
   },
   {
-    name: 'Striptease Divan',
-    description: 'Experiencia sensorial completa de 70 minutos.',
+    name: 'Velos del Diván',
+    description: 'Experiencia sensorial y erótica de 70 minutos con lencería sobre el diván.',
     priceFrom: 250,
   },
   {
-    name: 'Energy Deluxe',
-    description: 'Ritual premium de 70 minutos de masaje tántrico.',
+    name: 'Ritual Supremo',
+    description: 'Ritual tántrico premium de 70 minutos que reúne Kamasutra, agua y velos.',
     priceFrom: 300,
   },
 ];

@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "sutra": "Sutra Massage",
-      "doble-climax": "Double Climax Massage",
-      "striptease": "Striptease Divan",
-      "energy-deluxe": "Energy Deluxe"
+      "sutra": "Sutra der Begegnung",
+      "doble-climax": "Doppelter Climax Ritual",
+      "striptease": "Schleier des Diwans",
+      "energy-deluxe": "Höchstes Ritual"
     }
   },
   "ritual": {
@@ -87,23 +87,23 @@
     "lede": "Jedes Erlebnis wird mit lokalen Materialien, ruhigem Rhythmus und ungeteilter Aufmerksamkeit für dich vorbereitet. Einzel- und Paarsitzungen, ausschließlich nach Vereinbarung.",
     "items": {
       "sutra": {
-        "name": "Sutra Massage",
-        "desc": "Ein intimes Nackt-Erlebnis, bei dem Sie gemeinsam mit der Masseurin Kamasutra-Stellungen nachstellen.",
+        "name": "Sutra der Begegnung",
+        "desc": "Eine intime Nacktbegegnung, bei der Körper und Masseurin gemeinsam die Stellungen des Kamasutra erkunden.",
         "price": "30 Min. · 80 €  /  1 Std. · 150 €"
       },
       "doble-climax": {
-        "name": "Double Climax Massage",
-        "desc": "Zwei Genussmomente in einem einzigen Ritual — die Sitzung beginnt unter der Dusche.",
+        "name": "Doppelter Climax Ritual",
+        "desc": "Zwei Höhepunkte innerhalb einer einzigen Reise: Das Ritual beginnt mit einer Taufe aus warmem Wasser, ein sinnliches Vorspiel zum kommenden Genuss.",
         "price": "1 Std. · 200 €"
       },
       "striptease": {
-        "name": "Striptease Divan",
-        "desc": "Ein Striptease voller Sinnlichkeit und exotischem Reiz, mit Stellungen und Dessous auf dem Diwan.",
+        "name": "Schleier des Diwans",
+        "desc": "Ein sinnliches und erotisches Schauspiel auf dem Diwan, bei dem Stoffe und Dessous langsam fallen wie Schleier, die den Weg zum Verlangen öffnen.",
         "price": "70 Min. · 250 €"
       },
       "energy-deluxe": {
-        "name": "Energy Deluxe",
-        "desc": "Die perfekte Verschmelzung aller bisherigen Erlebnisse, gekrönt von einer unwiderstehlichen Versuchung.",
+        "name": "Höchstes Ritual",
+        "desc": "Das vollständigste Ritual: Es vereint das nackte Kamasutra, die Taufe aus warmem Wasser und den Tanz der Schleier in einer einzigen Reise, gekrönt von einer letzten Versuchung, die jeden deiner Sinne erweckt.",
         "price": "70 Min. · 300 €"
       }
     }

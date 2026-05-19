@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "sutra": "Sutra Massage",
-      "doble-climax": "Double Climax Massage",
-      "striptease": "Striptease Divan",
-      "energy-deluxe": "Energy Deluxe"
+      "sutra": "Sutra of Encounter",
+      "doble-climax": "Double Climax Ritual",
+      "striptease": "Veils of the Divan",
+      "energy-deluxe": "Supreme Ritual"
     }
   },
   "ritual": {
@@ -87,23 +87,23 @@
     "lede": "Each experience is prepared with local materials, a slow rhythm and full attention placed entirely on you. Individual and couples sessions, by appointment only.",
     "items": {
       "sutra": {
-        "name": "Sutra Massage",
-        "desc": "An intimate nude experience where you recreate Kamasutra postures together with the masseuse.",
+        "name": "Sutra of Encounter",
+        "desc": "An intimate nude encounter where your body and the masseuse explore the postures of the Kamasutra together.",
         "price": "30 min · €80  /  1 h · €150"
       },
       "doble-climax": {
-        "name": "Double Climax Massage",
-        "desc": "Two moments of pleasure within a single ritual — the session begins under the shower.",
+        "name": "Double Climax Ritual",
+        "desc": "Two culminations within a single journey: the ritual opens with a baptism of warm water, a sensory prelude to the pleasure that follows.",
         "price": "1 h · €200"
       },
       "striptease": {
-        "name": "Striptease Divan",
-        "desc": "A striptease full of sensuality and exotic charm, with postures and lingerie on the divan.",
+        "name": "Veils of the Divan",
+        "desc": "A sensorial and erotic dance on the divan, where fabrics and lingerie unfold slowly like veils that open the way to desire.",
         "price": "70 min · €250"
       },
       "energy-deluxe": {
-        "name": "Energy Deluxe",
-        "desc": "The perfect fusion of every previous experience together with an impossible-to-resist temptation.",
+        "name": "Supreme Ritual",
+        "desc": "The most complete ritual: it brings together the nude Kamasutra, the warm-water baptism and the dance of the veils in a single journey, crowned by a final temptation that awakens each of your senses.",
         "price": "70 min · €300"
       }
     }

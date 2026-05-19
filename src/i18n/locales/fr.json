@@ -72,10 +72,10 @@
       }
     },
     "servicios": {
-      "sutra": "Sutra Massage",
-      "doble-climax": "Double Climax Massage",
-      "striptease": "Striptease Divan",
-      "energy-deluxe": "Energy Deluxe"
+      "sutra": "Sutra de la Rencontre",
+      "doble-climax": "Double Climax Rituel",
+      "striptease": "Voiles du Divan",
+      "energy-deluxe": "Rituel Suprême"
     }
   },
   "ritual": {
@@ -87,23 +87,23 @@
     "lede": "Chaque expérience est préparée avec des matériaux locaux, un rythme posé et une attention entièrement portée sur vous. Séances individuelles et en couple, sur rendez-vous.",
     "items": {
       "sutra": {
-        "name": "Sutra Massage",
-        "desc": "Une expérience intime au naturel où vous rejouez des postures du Kamasutra aux côtés de la masseuse.",
+        "name": "Sutra de la Rencontre",
+        "desc": "Une rencontre intime au naturel où le corps et la masseuse explorent ensemble les postures du Kamasutra.",
         "price": "30 min · 80 €  /  1 h · 150 €"
       },
       "doble-climax": {
-        "name": "Double Climax Massage",
-        "desc": "Deux moments de plaisir dans un même rituel : la séance s'amorce sous l'eau de la douche.",
+        "name": "Double Climax Rituel",
+        "desc": "Deux culminations au sein d'un même voyage : le rituel s'ouvre par un baptême d'eau tiède, prélude sensoriel au plaisir qui suivra.",
         "price": "1 h · 200 €"
       },
       "striptease": {
-        "name": "Striptease Divan",
-        "desc": "Un striptease chargé de sensualité et d'exotisme, avec postures et lingerie sur le divan.",
+        "name": "Voiles du Divan",
+        "desc": "Une danse sensorielle et érotique sur le divan, où tissus et lingerie tombent lentement comme des voiles ouvrant la voie au désir.",
         "price": "70 min · 250 €"
       },
       "energy-deluxe": {
-        "name": "Energy Deluxe",
-        "desc": "La fusion parfaite de toutes les expériences précédentes accompagnée d'une tentation irrésistible.",
+        "name": "Rituel Suprême",
+        "desc": "Le rituel le plus complet : il réunit le Kamasutra dénudé, le baptême d'eau tiède et la danse des voiles dans un même voyage, couronné par une tentation finale qui éveille chacun de vos sens.",
         "price": "70 min · 300 €"
       }
     }
