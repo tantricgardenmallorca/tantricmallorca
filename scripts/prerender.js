@@ -13,6 +13,7 @@ const ROUTES = [
   '/masajistas/martina',
   '/masajistas/ela',
   '/masajistas/dulce-maria',
+  '/masajistas/heydi',
 ];
 
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');

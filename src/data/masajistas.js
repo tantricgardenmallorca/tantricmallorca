@@ -7,6 +7,8 @@ import ela1 from '../assets/photos/dulce-1.jpg';
 import ela2 from '../assets/photos/dulce-2.jpg';
 import dulceMaria1 from '../assets/photos/camila-1.jpg';
 import dulceMaria2 from '../assets/photos/camila-2.jpg';
+import heydi1 from '../assets/photos/heydi-1.jpg';
+import heydi2 from '../assets/photos/heydi-2.jpg';
 
 const SERVICIOS_KEYS = [
   { key: 'sutra', duracion: '30 min · 60 min', precio: '80 € / 150 €' },
@@ -38,6 +40,12 @@ export const MASAJISTAS = [
     slug: 'dulce-maria',
     name: 'Dulce María',
     images: [dulceMaria1, dulceMaria2],
+    servicios: SERVICIOS_KEYS,
+  },
+  {
+    slug: 'heydi',
+    name: 'Heydi',
+    images: [heydi1, heydi2],
     servicios: SERVICIOS_KEYS,
   },
 ];
