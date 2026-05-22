@@ -48,8 +48,10 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     '@type': ['HealthAndBeautyBusiness', 'LocalBusiness'],
     '@id': `${SITE_URL}/#business`,
     name: 'The Tantric Garden',
+    alternateName: ['Tantric Garden', 'The Tantric Garden Mallorca'],
     description,
     url: SITE_URL,
+    sameAs: [`${SITE_URL}/#organization`],
     image: ogImage,
     telephone: WHATSAPP_NUMBER,
     address: {
@@ -102,6 +104,44 @@ function buildLocalBusinessSchema({ description, ogImage }) {
   };
 }
 
+function buildWebSiteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: 'The Tantric Garden',
+    alternateName: ['Tantric Garden', 'The Tantric Garden Mallorca'],
+    inLanguage: ['es', 'en', 'fr', 'de'],
+    publisher: { '@id': `${SITE_URL}/#organization` },
+  };
+}
+
+function buildOrganizationSchema({ ogImage }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
+    name: 'The Tantric Garden',
+    alternateName: ['Tantric Garden', 'The Tantric Garden Mallorca'],
+    url: SITE_URL,
+    logo: ogImage,
+    description: 'Centro de masaje tántrico en Mallorca · The Tantric Garden',
+  };
+}
+
+function buildFAQSchema(faqs) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+}
+
 function buildPersonSchema({ name, description, image, path }) {
   return {
     '@context': 'https://schema.org',
@@ -122,6 +162,7 @@ export default function SEO({
   description: descOverride,
   schema,
   person,
+  faqs,
 }) {
   const { t, locale } = useTranslation();
   const url = `${SITE_URL}${path}`;
@@ -133,9 +174,12 @@ export default function SEO({
 
   const businessSchema =
     schema || buildLocalBusinessSchema({ description, ogImage });
+  const websiteSchema = buildWebSiteSchema();
+  const organizationSchema = buildOrganizationSchema({ ogImage });
   const personSchema = person
     ? buildPersonSchema({ ...person, path })
     : null;
+  const faqSchema = Array.isArray(faqs) && faqs.length ? buildFAQSchema(faqs) : null;
 
   return (
     <Helmet>
@@ -175,9 +219,20 @@ export default function SEO({
       <script type="application/ld+json">
         {JSON.stringify(businessSchema)}
       </script>
+      <script type="application/ld+json">
+        {JSON.stringify(websiteSchema)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(organizationSchema)}
+      </script>
       {personSchema && (
         <script type="application/ld+json">
           {JSON.stringify(personSchema)}
+        </script>
+      )}
+      {faqSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
         </script>
       )}
     </Helmet>

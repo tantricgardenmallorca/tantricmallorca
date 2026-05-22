@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "The Tantric Garden — Masaje Tántrico Profesional en Mallorca",
-    "description": "Centro de masaje tántrico en Mallorca. Sutra Massage, Doble Climax, Striptease Divan y Energy Deluxe con masajistas profesionales. Reserva con cita previa.",
+    "description": "The Tantric Garden — Masaje tántrico en Mallorca. Ritual del Loto, Doble Marea, Jardín de Velos y Ritual Imperial con masajistas profesionales. Cita previa.",
     "ogTitle": "The Tantric Garden — Donde la piel se convierte en el lenguaje del alma",
-    "ogDescription": "Rituales de placer absoluto en el corazón de Mallorca. Sutra Massage, Doble Climax, Striptease y Energy Deluxe."
+    "ogDescription": "The Tantric Garden · Rituales tántricos en el corazón de Mallorca: Ritual del Loto, Doble Marea, Jardín de Velos y Ritual Imperial."
   },
   "nav": {
     "about": "Nosotros",
@@ -142,6 +142,30 @@
     "cookies": "Aviso de Cookies",
     "fine1": "The Tantric Garden opera bajo cita previa en Mallorca, Illes Balears. Servicios para mayores de 18 años.",
     "fine2": "© {{year}} The Tantric Garden. Todos los derechos reservados."
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "¿Qué es The Tantric Garden?",
+        "a": "The Tantric Garden es un centro de masaje tántrico en Mallorca donde ofrecemos rituales sensoriales en un espacio íntimo y cuidado al detalle, atendidos por masajistas profesionales formadas en artes somáticas y tántricas."
+      },
+      {
+        "q": "¿Qué rituales ofrecen?",
+        "a": "Ofrecemos cuatro experiencias: Ritual del Loto (30 o 60 min), Doble Marea (60 min), Jardín de Velos (70 min) y Ritual Imperial (70 min), nuestra experiencia más exclusiva."
+      },
+      {
+        "q": "¿Cómo reservo una sesión?",
+        "a": "Atendemos exclusivamente con cita previa. Puedes reservar a través de WhatsApp desde nuestra web, indicando el ritual que te interesa y tu disponibilidad."
+      },
+      {
+        "q": "¿Dónde está ubicado The Tantric Garden?",
+        "a": "Estamos en Mallorca, Illes Balears. Damos la ubicación exacta al confirmar la cita para preservar la privacidad del espacio."
+      },
+      {
+        "q": "¿Es necesaria experiencia previa en masaje tántrico?",
+        "a": "No. Cada sesión se adapta al ritmo y la sensibilidad de quien la recibe. Nuestras masajistas te guían con presencia y respeto, sin exigir conocimientos previos."
+      }
+    ]
   },
   "whatsapp": {
     "default": "¡Hola The Tantric Garden! Me interesa reservar una experiencia, ¿podrían darme más información?",

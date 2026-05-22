@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "The Tantric Garden — Professional Tantric Massage in Mallorca",
-    "description": "Tantric massage centre in Mallorca. Sutra Massage, Double Climax, Striptease Divan and Energy Deluxe with professional masseuses. By appointment only.",
+    "description": "The Tantric Garden — Tantric massage in Mallorca. Lotus Ritual, Double Tide, Garden of Veils and Imperial Ritual with professional masseuses. By appointment.",
     "ogTitle": "The Tantric Garden — Where the skin becomes the language of the soul",
-    "ogDescription": "Rituals of absolute pleasure in the heart of Mallorca. Sutra Massage, Double Climax, Striptease and Energy Deluxe."
+    "ogDescription": "The Tantric Garden · Tantric rituals in the heart of Mallorca: Lotus Ritual, Double Tide, Garden of Veils and Imperial Ritual."
   },
   "nav": {
     "about": "About",
@@ -142,6 +142,30 @@
     "cookies": "Cookie Notice",
     "fine1": "The Tantric Garden operates by appointment only in Mallorca, Balearic Islands. Services for adults aged 18+.",
     "fine2": "© {{year}} The Tantric Garden. All rights reserved."
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "What is The Tantric Garden?",
+        "a": "The Tantric Garden is a tantric massage centre in Mallorca offering sensory rituals in an intimate, carefully prepared space, hosted by professional masseuses trained in somatic and tantric arts."
+      },
+      {
+        "q": "Which rituals do you offer?",
+        "a": "We offer four experiences: Lotus Ritual (30 or 60 min), Double Tide (60 min), Garden of Veils (70 min) and Imperial Ritual (70 min), our most exclusive experience."
+      },
+      {
+        "q": "How do I book a session?",
+        "a": "We work strictly by appointment. You can book via WhatsApp from our website by indicating the ritual you are interested in and your availability."
+      },
+      {
+        "q": "Where is The Tantric Garden located?",
+        "a": "We are in Mallorca, Balearic Islands. The exact address is shared when the appointment is confirmed, to preserve the privacy of the space."
+      },
+      {
+        "q": "Do I need previous experience with tantric massage?",
+        "a": "No. Each session adapts to the rhythm and sensitivity of the person receiving it. Our masseuses guide you with presence and full respect, with no prior knowledge required."
+      }
+    ]
   },
   "whatsapp": {
     "default": "Hello The Tantric Garden! I'd like to book an experience — could you share more information?",

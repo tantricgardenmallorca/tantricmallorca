@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "The Tantric Garden — Professionelle Tantra-Massage auf Mallorca",
-    "description": "Tantra-Massagezentrum auf Mallorca. Sutra Massage, Double Climax, Striptease Divan und Energy Deluxe mit professionellen Masseurinnen. Nur nach Vereinbarung.",
+    "description": "The Tantric Garden — Tantra-Massage auf Mallorca. Lotus-Ritual, Doppelte Flut, Schleiergarten und Imperiales Ritual mit professionellen Masseurinnen.",
     "ogTitle": "The Tantric Garden — Wo die Haut zur Sprache der Seele wird",
-    "ogDescription": "Rituale der absoluten Lust im Herzen Mallorcas. Sutra Massage, Double Climax, Striptease und Energy Deluxe."
+    "ogDescription": "The Tantric Garden · Tantrische Rituale im Herzen Mallorcas: Lotus-Ritual, Doppelte Flut, Schleiergarten und Imperiales Ritual."
   },
   "nav": {
     "about": "Über uns",
@@ -142,6 +142,30 @@
     "cookies": "Cookie-Hinweis",
     "fine1": "The Tantric Garden arbeitet ausschließlich nach Vereinbarung auf Mallorca, Balearische Inseln. Leistungen für Personen ab 18 Jahren.",
     "fine2": "© {{year}} The Tantric Garden. Alle Rechte vorbehalten."
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Was ist The Tantric Garden?",
+        "a": "The Tantric Garden ist ein Tantra-Massagezentrum auf Mallorca, das sinnliche Rituale in einem intimen, mit Sorgfalt vorbereiteten Raum anbietet, betreut von professionellen Masseurinnen mit Ausbildung in somatischen und tantrischen Künsten."
+      },
+      {
+        "q": "Welche Rituale werden angeboten?",
+        "a": "Wir bieten vier Erlebnisse an: Lotus-Ritual (30 oder 60 Min.), Doppelte Flut (60 Min.), Schleiergarten (70 Min.) und Imperiales Ritual (70 Min.), unser exklusivstes Erlebnis."
+      },
+      {
+        "q": "Wie buche ich eine Sitzung?",
+        "a": "Wir arbeiten ausschließlich nach Vereinbarung. Du kannst direkt über WhatsApp von unserer Website buchen und das gewünschte Ritual sowie deine Verfügbarkeit angeben."
+      },
+      {
+        "q": "Wo befindet sich The Tantric Garden?",
+        "a": "Wir sind auf Mallorca, Balearische Inseln. Die genaue Adresse teilen wir bei der Terminbestätigung mit, um die Privatsphäre des Ortes zu wahren."
+      },
+      {
+        "q": "Brauche ich Erfahrung mit Tantra-Massage?",
+        "a": "Nein. Jede Sitzung passt sich dem Rhythmus und der Sensibilität der empfangenden Person an. Unsere Masseurinnen begleiten dich mit Präsenz und vollem Respekt, ohne Vorkenntnisse vorauszusetzen."
+      }
+    ]
   },
   "whatsapp": {
     "default": "Hallo The Tantric Garden! Ich möchte gerne eine Erfahrung buchen — könnten Sie mir mehr Informationen geben?",

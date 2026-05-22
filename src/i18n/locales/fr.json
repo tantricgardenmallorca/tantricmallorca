@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "The Tantric Garden — Massage Tantrique Professionnel à Majorque",
-    "description": "Centre de massage tantrique à Majorque. Sutra Massage, Double Climax, Striptease Divan et Energy Deluxe avec des masseuses professionnelles. Sur rendez-vous uniquement.",
+    "description": "The Tantric Garden — Massage tantrique à Majorque. Rituel du Lotus, Double Marée, Jardin des Voiles et Rituel Impérial avec des masseuses professionnelles.",
     "ogTitle": "The Tantric Garden — Quand la peau devient le langage de l'âme",
-    "ogDescription": "Rituels de plaisir absolu au cœur de Majorque. Sutra Massage, Double Climax, Striptease et Energy Deluxe."
+    "ogDescription": "The Tantric Garden · Rituels tantriques au cœur de Majorque : Rituel du Lotus, Double Marée, Jardin des Voiles et Rituel Impérial."
   },
   "nav": {
     "about": "À propos",
@@ -142,6 +142,30 @@
     "cookies": "Avis cookies",
     "fine1": "The Tantric Garden opère sur rendez-vous à Majorque, Îles Baléares. Services réservés aux personnes majeures (18+).",
     "fine2": "© {{year}} The Tantric Garden. Tous droits réservés."
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Qu'est-ce que The Tantric Garden ?",
+        "a": "The Tantric Garden est un centre de massage tantrique à Majorque qui propose des rituels sensoriels dans un espace intime et soigné, animé par des masseuses professionnelles formées aux arts somatiques et tantriques."
+      },
+      {
+        "q": "Quels rituels proposez-vous ?",
+        "a": "Nous proposons quatre expériences : Rituel du Lotus (30 ou 60 min), Double Marée (60 min), Jardin des Voiles (70 min) et Rituel Impérial (70 min), notre expérience la plus exclusive."
+      },
+      {
+        "q": "Comment réserver une séance ?",
+        "a": "Nous travaillons uniquement sur rendez-vous. Vous pouvez réserver via WhatsApp depuis notre site, en indiquant le rituel qui vous intéresse et vos disponibilités."
+      },
+      {
+        "q": "Où se trouve The Tantric Garden ?",
+        "a": "Nous sommes à Majorque, Îles Baléares. L'adresse exacte est communiquée à la confirmation du rendez-vous, pour préserver la confidentialité de l'espace."
+      },
+      {
+        "q": "Faut-il une expérience préalable du massage tantrique ?",
+        "a": "Non. Chaque séance s'adapte au rythme et à la sensibilité de la personne qui la reçoit. Nos masseuses vous guident en présence et avec respect, sans prérequis."
+      }
+    ]
   },
   "whatsapp": {
     "default": "Bonjour The Tantric Garden ! J'aimerais réserver une expérience, pourriez-vous me donner plus d'informations ?",
