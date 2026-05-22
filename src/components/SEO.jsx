@@ -216,6 +216,13 @@ export default function SEO({
       <meta property="og:title" content={ogTitle} />
       <meta property="og:description" content={ogDescription} />
       <meta property="og:image" content={ogImage} />
+      {!person && (
+        <meta property="og:image:width" content="1200" />
+      )}
+      {!person && (
+        <meta property="og:image:height" content="630" />
+      )}
+      <meta property="og:image:alt" content={person?.name || 'The Tantric Garden — Masaje Tántrico en Mallorca'} />
       <meta property="og:site_name" content="The Tantric Garden" />
 
       <meta name="twitter:card" content="summary_large_image" />
