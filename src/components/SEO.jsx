@@ -11,12 +11,12 @@ const OG_LOCALES = {
   de: 'de_DE',
 };
 
-// Palma de Mallorca center (no real address yet — improves "near me" relevance for the island).
+// Coordenadas exactas del local — Carrer de la Vinyassa 25, Llevant, Palma.
 const GEO = {
-  lat: 39.5696,
-  lng: 2.6502,
+  lat: 39.575691,
+  lng: 2.655830,
   region: 'ES-PM',
-  placename: 'Mallorca, Illes Balears',
+  placename: 'Palma, Illes Balears',
 };
 
 const SERVICE_CATALOG = [
@@ -56,8 +56,10 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     telephone: WHATSAPP_NUMBER,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Carrer de la Vinyassa, 25',
       addressLocality: 'Palma',
       addressRegion: 'Illes Balears',
+      postalCode: '07005',
       addressCountry: 'ES',
     },
     geo: {
@@ -100,7 +102,7 @@ function buildLocalBusinessSchema({ description, ogImage }) {
         'Sunday',
       ],
       opens: '10:00',
-      closes: '22:00',
+      closes: '21:00',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
