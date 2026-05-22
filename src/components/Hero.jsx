@@ -18,6 +18,7 @@ export default function Hero() {
       />
       <div className="hero-overlay" aria-hidden="true" />
       <div className="container hero-content">
+        <p className="hero-eyebrow">{t('hero.eyebrow')}</p>
         <h1>{t('hero.title')}</h1>
         <p>{t('hero.lede')}</p>
         <div className="hero-ctas">

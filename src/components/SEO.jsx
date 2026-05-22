@@ -67,8 +67,25 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     },
     areaServed: [
       { '@type': 'City', name: 'Palma de Mallorca' },
+      { '@type': 'City', name: 'Palma' },
       { '@type': 'AdministrativeArea', name: 'Illes Balears' },
+      { '@type': 'AdministrativeArea', name: 'Islas Baleares' },
       { '@type': 'Place', name: 'Mallorca' },
+      { '@type': 'Place', name: 'Majorca' },
+    ],
+    knowsAbout: [
+      'Masaje tántrico',
+      'Tantric massage',
+      'Massage tantrique',
+      'Tantra-Massage',
+      'Masaje sensorial',
+      'Ritual sensorial',
+      'Bodywork',
+    ],
+    serviceType: [
+      'Masaje Tántrico',
+      'Tantric Massage',
+      'Ritual Sensorial',
     ],
     priceRange: '€€€',
     openingHoursSpecification: {
