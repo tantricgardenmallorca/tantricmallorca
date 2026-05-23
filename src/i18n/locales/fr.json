@@ -20,6 +20,19 @@
     "ctaPrimary": "Prendre rendez-vous",
     "ctaSecondary": "Découvrir nos expériences"
   },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Massage Tantrique Professionnel à Palma de Majorque",
+    "body": "The Tantric Garden est un centre de massage tantrique à Palma de Majorque, situé au Carrer de la Vinyassa, 25, dans le quartier de Llevant. Nous proposons quatre rituels sensoriels —Rituel du Lotus, Double Marée, Jardin des Voiles et Rituel Impérial— animés par des masseuses professionnelles formées aux arts somatiques et tantriques. Nous travaillons uniquement sur rendez-vous, du lundi au dimanche, de 10h00 à 21h00, dans un espace intime soigné dans le moindre détail.",
+    "facts": [
+      { "k": "Adresse", "v": "Carrer de la Vinyassa, 25, Llevant, 07005 Palma" },
+      { "k": "Horaires", "v": "Lundi à dimanche · 10h00 – 21h00" },
+      { "k": "Réservations", "v": "Uniquement sur rendez-vous, via WhatsApp" },
+      { "k": "Services", "v": "Rituel du Lotus, Double Marée, Jardin des Voiles, Rituel Impérial" },
+      { "k": "Langues", "v": "Français, Español, English, Deutsch" },
+      { "k": "Accès", "v": "Service réservé aux personnes majeures (18+)" }
+    ]
+  },
   "masajistas": {
     "title": "Nos Masseuses",
     "lede": "Nos spécialistes ne sont pas seulement des thérapeutes : ce sont des guides certifiées dans les arts somatiques et tantriques. Choisies pour leur haute vibration et leur écoute empathique, elles tiennent l'espace pour que vous puissiez vous laisser aller.",

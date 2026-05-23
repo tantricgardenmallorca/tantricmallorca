@@ -1,4 +1,5 @@
 import Hero from '../components/Hero.jsx';
+import About from '../components/About.jsx';
 import Masajistas from '../components/Masajistas.jsx';
 import Ritual from '../components/Ritual.jsx';
 import Experiencias from '../components/Experiencias.jsx';
@@ -14,6 +15,7 @@ export default function HomePage() {
     <>
       <SEO path="/" faqs={Array.isArray(faqs) ? faqs : []} />
       <Hero />
+      <About />
       <Masajistas />
       <Ritual />
       <Experiencias />

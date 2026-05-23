@@ -20,6 +20,19 @@
     "ctaPrimary": "Agendar Cita",
     "ctaSecondary": "Explora nuestras Experiencias"
   },
+  "about": {
+    "eyebrow": "Sobre Nosotros",
+    "title": "Masaje Tántrico Profesional en Palma de Mallorca",
+    "body": "The Tantric Garden es un centro de masaje tántrico en Palma de Mallorca, ubicado en Carrer de la Vinyassa, 25, en el barrio de Llevant. Ofrecemos cuatro rituales sensoriales —Ritual del Loto, Doble Marea, Jardín de Velos y Ritual Imperial— atendidos por masajistas profesionales formadas en artes somáticas y tántricas. Trabajamos exclusivamente con cita previa, de lunes a domingo, de 10:00 a 21:00, en un espacio íntimo cuidado al detalle.",
+    "facts": [
+      { "k": "Dirección", "v": "Carrer de la Vinyassa, 25, Llevant, 07005 Palma" },
+      { "k": "Horario", "v": "Lunes a domingo · 10:00 – 21:00" },
+      { "k": "Reservas", "v": "Exclusivamente con cita previa, por WhatsApp" },
+      { "k": "Servicios", "v": "Ritual del Loto, Doble Marea, Jardín de Velos, Ritual Imperial" },
+      { "k": "Idiomas", "v": "Español, English, Français, Deutsch" },
+      { "k": "Acceso", "v": "Servicio para mayores de 18 años" }
+    ]
+  },
   "masajistas": {
     "title": "Nuestras Masajistas",
     "lede": "Nuestras especialistas no solo son terapeutas, son guías certificadas en artes somáticas y tántricas. Seleccionadas por su alta vibración y capacidad de escucha empática, ellas sostienen el espacio para que tú puedas dejarte ir.",

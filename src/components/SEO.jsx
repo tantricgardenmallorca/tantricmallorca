@@ -19,6 +19,10 @@ const GEO = {
   placename: 'Palma, Illes Balears',
 };
 
+const SAME_AS = [
+  'https://www.google.com/maps/place/39%C2%B034%2732.5%22N+2%C2%B039%2721.0%22E/@39.575691,2.655830,17z',
+];
+
 const SERVICE_CATALOG = [
   {
     name: 'Ritual del Loto',
@@ -51,7 +55,7 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     alternateName: ['Tantric Garden', 'The Tantric Garden Mallorca'],
     description,
     url: SITE_URL,
-    sameAs: [`${SITE_URL}/#organization`],
+    sameAs: SAME_AS,
     image: ogImage,
     telephone: WHATSAPP_NUMBER,
     address: {
@@ -145,6 +149,7 @@ function buildOrganizationSchema({ ogImage }) {
     alternateName: ['Tantric Garden', 'The Tantric Garden Mallorca'],
     url: SITE_URL,
     logo: ogImage,
+    sameAs: SAME_AS,
     description: 'Centro de masaje tántrico en Mallorca · The Tantric Garden',
   };
 }

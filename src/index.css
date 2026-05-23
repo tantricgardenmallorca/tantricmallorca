@@ -379,6 +379,59 @@ svg {
   margin: 0 auto 56px;
 }
 
+/* ===== About (factual) ===== */
+.about-section {
+  background: var(--c-bone);
+  padding: clamp(56px, 7vw, 96px) 0;
+}
+.about-eyebrow {
+  font-family: var(--display);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--c-terracotta);
+  text-align: center;
+  margin-bottom: 18px;
+}
+.about-title {
+  font-size: clamp(28px, 3.4vw, 42px);
+  margin-bottom: 18px;
+}
+.about-lede {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: var(--c-ink-2);
+  margin: 0 auto 40px;
+}
+.about-facts {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px 40px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0;
+}
+.about-facts li {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--c-line);
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+.about-fact-key {
+  font-family: var(--display);
+  font-style: italic;
+  color: var(--c-mute);
+  flex: 0 0 35%;
+}
+.about-fact-val {
+  color: var(--c-ink);
+  font-weight: 500;
+}
+
 /* ===== Masajistas ===== */
 .masajistas {
   background: var(--c-cream);
@@ -1250,6 +1303,17 @@ svg {
   .section-lede {
     font-size: 14.5px;
     margin-bottom: 40px;
+  }
+  .about-section {
+    padding: 56px 0;
+  }
+  .about-facts {
+    grid-template-columns: 1fr;
+    gap: 0;
+    max-width: 100%;
+  }
+  .about-fact-key {
+    flex: 0 0 40%;
   }
 }
 

@@ -20,6 +20,19 @@
     "ctaPrimary": "Book a session",
     "ctaSecondary": "Explore our Experiences"
   },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Professional Tantric Massage in Palma de Mallorca",
+    "body": "The Tantric Garden is a tantric massage centre in Palma de Mallorca, located at Carrer de la Vinyassa, 25, in the Llevant district. We offer four sensory rituals —Lotus Ritual, Double Tide, Garden of Veils and Imperial Ritual— hosted by professional masseuses trained in somatic and tantric arts. We work strictly by appointment, Monday to Sunday, 10:00 to 21:00, in an intimate space cared for in every detail.",
+    "facts": [
+      { "k": "Address", "v": "Carrer de la Vinyassa, 25, Llevant, 07005 Palma" },
+      { "k": "Hours", "v": "Monday to Sunday · 10:00 – 21:00" },
+      { "k": "Booking", "v": "By appointment only, via WhatsApp" },
+      { "k": "Services", "v": "Lotus Ritual, Double Tide, Garden of Veils, Imperial Ritual" },
+      { "k": "Languages", "v": "English, Español, Français, Deutsch" },
+      { "k": "Access", "v": "Service for adults aged 18+" }
+    ]
+  },
   "masajistas": {
     "title": "Our Masseuses",
     "lede": "Our specialists are not only therapists, they are certified guides in somatic and tantric arts. Selected for their high vibration and empathic listening, they hold the space so you can truly let go.",
