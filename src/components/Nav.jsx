@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from '../i18n/useTranslation.js';
 import { whatsappLink } from '../data/whatsapp.js';
 import LangSwitcher from './LangSwitcher.jsx';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo-dark.svg';
 
 const LINKS = [
   { key: 'nav.about', href: '/#nosotros' },

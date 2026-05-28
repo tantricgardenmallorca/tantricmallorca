@@ -1,5 +1,5 @@
 import { useTranslation } from '../i18n/useTranslation.js';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo-light.svg';
 
 const LEGAL_KEYS = ['footer.terms', 'footer.privacy', 'footer.cookies'];
 const YEAR = new Date().getFullYear();
