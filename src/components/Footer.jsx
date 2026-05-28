@@ -1,5 +1,7 @@
 import { useTranslation } from '../i18n/useTranslation.js';
+import { INSTAGRAM_URL } from '../data/social.js';
 import logo from '../assets/logo-light.svg';
+import InstagramIcon from './InstagramIcon.jsx';
 
 const LEGAL_KEYS = ['footer.terms', 'footer.privacy', 'footer.cookies'];
 const YEAR = new Date().getFullYear();
@@ -22,6 +24,20 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="footer-col">
+            <h4>{t('footer.follow')}</h4>
+            <div className="footer-social">
+              <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+                aria-label="Instagram"
+              >
+                <InstagramIcon className="social-icon" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="footer-fine">

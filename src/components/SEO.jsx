@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { useTranslation } from '../i18n/useTranslation.js';
 import { SUPPORTED_LOCALES } from '../i18n/config.js';
 import { WHATSAPP_NUMBER } from '../data/whatsapp.js';
+import { INSTAGRAM_URL } from '../data/social.js';
 
 const SITE_URL = 'https://www.tantricmallorca.com';
 const OG_LOCALES = {
@@ -20,6 +21,7 @@ const GEO = {
 };
 
 const SAME_AS = [
+  INSTAGRAM_URL,
   'https://www.google.com/maps/place/39%C2%B034%2732.5%22N+2%C2%B039%2721.0%22E/@39.575691,2.655830,17z',
 ];
 

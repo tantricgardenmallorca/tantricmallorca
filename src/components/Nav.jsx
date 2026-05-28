@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from '../i18n/useTranslation.js';
 import { whatsappLink } from '../data/whatsapp.js';
+import { INSTAGRAM_URL } from '../data/social.js';
 import LangSwitcher from './LangSwitcher.jsx';
+import InstagramIcon from './InstagramIcon.jsx';
 import logo from '../assets/logo-dark.svg';
 
 const LINKS = [
@@ -38,6 +40,15 @@ export default function Nav() {
             className="btn btn-dark"
           >
             {t('nav.book')}
+          </a>
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-social"
+            aria-label="Instagram"
+          >
+            <InstagramIcon className="nav-social-icon" />
           </a>
           <LangSwitcher />
           <button
