@@ -29,7 +29,6 @@
       { "k": "Hours", "v": "Monday to Sunday · 10:00 – 21:00" },
       { "k": "Booking", "v": "By appointment only, via WhatsApp" },
       { "k": "Services", "v": "Lotus Ritual, Double Tide, Garden of Veils, Imperial Ritual" },
-      { "k": "Languages", "v": "English, Español, Français, Deutsch" },
       { "k": "Access", "v": "Service for adults aged 18+" }
     ]
   },
@@ -154,6 +153,8 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cookies": "Cookie Notice",
+    "directions": "Get directions",
+    "mapAria": "View location on Google Maps",
     "fine1": "The Tantric Garden operates by appointment only in Mallorca, Balearic Islands. Services for adults aged 18+.",
     "fine2": "© {{year}} The Tantric Garden. All rights reserved."
   },

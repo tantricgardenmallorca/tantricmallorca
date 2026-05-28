@@ -29,7 +29,6 @@
       { "k": "Öffnungszeiten", "v": "Montag bis Sonntag · 10:00 – 21:00 Uhr" },
       { "k": "Reservierungen", "v": "Nur nach Terminvereinbarung, über WhatsApp" },
       { "k": "Leistungen", "v": "Lotus-Ritual, Doppelte Gezeit, Garten der Schleier, Imperiales Ritual" },
-      { "k": "Sprachen", "v": "Deutsch, Español, English, Français" },
       { "k": "Zutritt", "v": "Service für Erwachsene ab 18 Jahren" }
     ]
   },
@@ -154,6 +153,8 @@
     "terms": "Allgemeine Geschäftsbedingungen",
     "privacy": "Datenschutzerklärung",
     "cookies": "Cookie-Hinweis",
+    "directions": "Anfahrt",
+    "mapAria": "Standort auf Google Maps ansehen",
     "fine1": "The Tantric Garden arbeitet ausschließlich nach Vereinbarung auf Mallorca, Balearische Inseln. Leistungen für Personen ab 18 Jahren.",
     "fine2": "© {{year}} The Tantric Garden. Alle Rechte vorbehalten."
   },

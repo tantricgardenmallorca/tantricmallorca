@@ -758,10 +758,46 @@ svg {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.3fr 1fr 1.5fr;
   gap: 60px;
   align-items: start;
   margin-bottom: 56px;
+}
+.footer-map {
+  position: relative;
+  display: block;
+  height: 200px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 240, 229, 0.14);
+}
+.footer-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  pointer-events: none;
+  filter: grayscale(0.15) brightness(0.95);
+}
+.footer-map-cta {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--c-cream);
+  color: var(--c-ink);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.footer-map:hover .footer-map-cta {
+  background: var(--c-terracotta);
+  color: var(--c-cream);
 }
 .footer-logo-img {
   height: 96px;

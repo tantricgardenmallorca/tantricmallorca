@@ -29,7 +29,6 @@
       { "k": "Horario", "v": "Lunes a domingo · 10:00 – 21:00" },
       { "k": "Reservas", "v": "Exclusivamente con cita previa, por WhatsApp" },
       { "k": "Servicios", "v": "Ritual del Loto, Doble Marea, Jardín de Velos, Ritual Imperial" },
-      { "k": "Idiomas", "v": "Español, English, Français, Deutsch" },
       { "k": "Acceso", "v": "Servicio para mayores de 18 años" }
     ]
   },
@@ -154,6 +153,8 @@
     "terms": "Términos y Condiciones",
     "privacy": "Política de Privacidad",
     "cookies": "Aviso de Cookies",
+    "directions": "Cómo llegar",
+    "mapAria": "Ver ubicación en Google Maps",
     "fine1": "The Tantric Garden opera bajo cita previa en Mallorca, Illes Balears. Servicios para mayores de 18 años.",
     "fine2": "© {{year}} The Tantric Garden. Todos los derechos reservados."
   },

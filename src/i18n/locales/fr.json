@@ -29,7 +29,6 @@
       { "k": "Horaires", "v": "Lundi à dimanche · 10h00 – 21h00" },
       { "k": "Réservations", "v": "Uniquement sur rendez-vous, via WhatsApp" },
       { "k": "Services", "v": "Rituel du Lotus, Double Marée, Jardin des Voiles, Rituel Impérial" },
-      { "k": "Langues", "v": "Français, Español, English, Deutsch" },
       { "k": "Accès", "v": "Service réservé aux personnes majeures (18+)" }
     ]
   },
@@ -154,6 +153,8 @@
     "terms": "Conditions générales",
     "privacy": "Politique de confidentialité",
     "cookies": "Avis cookies",
+    "directions": "Itinéraire",
+    "mapAria": "Voir l'emplacement sur Google Maps",
     "fine1": "The Tantric Garden opère sur rendez-vous à Majorque, Îles Baléares. Services réservés aux personnes majeures (18+).",
     "fine2": "© {{year}} The Tantric Garden. Tous droits réservés."
   },
