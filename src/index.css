@@ -945,25 +945,48 @@ svg {
   outline: 3px solid var(--c-ink);
   outline-offset: 3px;
 }
+.floating-map-pin {
+  display: none;
+}
 @media (max-width: 600px) {
   .floating-map {
-    width: 160px;
-    height: 118px;
-    border-radius: 12px;
+    width: 56px;
+    height: 56px;
+    right: 24px;
+    bottom: 92px;
+    border-radius: 50%;
+    border: none;
+    overflow: hidden;
+    background: var(--c-terracotta);
+    box-shadow: 0 8px 24px rgba(176, 89, 54, 0.4),
+      0 2px 6px rgba(24, 23, 28, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .floating-map iframe,
   .floating-map-cta {
-    font-size: 10px;
-    padding: 5px 10px;
-    bottom: 8px;
-    left: 8px;
+    display: none;
+  }
+  .floating-map-pin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-cream);
+  }
+  .floating-map-pin svg {
+    width: 26px;
+    height: 26px;
+    display: block;
+  }
+  .floating-map:hover {
+    transform: scale(1.06);
   }
 }
 @media (max-width: 480px) {
   .floating-map {
     right: 18px;
-    bottom: 84px;
-    width: 150px;
-    height: 110px;
+    bottom: 86px;
   }
 }
 
