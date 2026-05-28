@@ -752,8 +752,8 @@ svg {
 
 /* ===== Footer ===== */
 .footer {
-  background: var(--c-ink-2);
-  color: var(--c-cream);
+  background: #f6e3d2;
+  color: var(--c-ink);
   padding: 80px 0 32px;
 }
 .footer-grid {
@@ -792,16 +792,16 @@ svg {
 }
 .footer-col a {
   font-size: 14px;
-  color: rgba(255, 240, 229, 0.78);
+  color: var(--c-mute);
 }
 .footer-col a:hover {
-  color: var(--c-cream);
+  color: var(--c-ink);
 }
 .footer-fine {
   font-size: 12px;
   line-height: 1.7;
-  color: rgba(255, 240, 229, 0.55);
-  border-top: 1px solid rgba(255, 240, 229, 0.12);
+  color: var(--c-mute);
+  border-top: 1px solid var(--c-line);
   padding-top: 24px;
   display: flex;
   justify-content: space-between;
