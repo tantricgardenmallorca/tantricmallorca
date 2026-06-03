@@ -156,6 +156,12 @@
     "directions": "Anfahrt",
     "mapAria": "Standort auf Google Maps ansehen",
     "follow": "Folgen Sie uns",
+    "nav": "Navigation",
+    "contact": "Kontakt",
+    "hours": "Öffnungszeiten",
+    "hoursValue": "Montag bis Sonntag · 10:00 – 21:00 Uhr",
+    "address": "Adresse",
+    "addressValue": "Carrer de la Vinyassa, 25, Llevant, 07005 Palma",
     "fine1": "The Tantric Garden arbeitet ausschließlich nach Vereinbarung auf Mallorca, Balearische Inseln. Leistungen für Personen ab 18 Jahren.",
     "fine2": "© {{year}} The Tantric Garden. Alle Rechte vorbehalten."
   },
