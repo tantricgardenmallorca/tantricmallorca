@@ -193,6 +193,12 @@
     "default": "Bonjour The Tantric Garden ! J'aimerais réserver une expérience, pourriez-vous me donner plus d'informations ?",
     "aria": "Contacter via WhatsApp"
   },
+  "cookies": {
+    "aria": "Avis cookies",
+    "text": "Nous utilisons des cookies pour analyser le trafic et améliorer votre expérience. Vous pouvez les accepter ou les refuser.",
+    "accept": "Accepter",
+    "reject": "Refuser"
+  },
   "lightbox": {
     "aria": "Galerie d'images agrandie",
     "close": "Fermer",

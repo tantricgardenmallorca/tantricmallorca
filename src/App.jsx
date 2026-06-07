@@ -4,6 +4,8 @@ import Footer from './components/Footer.jsx';
 import WhatsAppButton from './components/WhatsAppButton.jsx';
 import FloatingMap from './components/FloatingMap.jsx';
 import ScrollToHash from './components/ScrollToHash.jsx';
+import Analytics from './components/Analytics.jsx';
+import CookieConsent from './components/CookieConsent.jsx';
 import HomePage from './pages/HomePage.jsx';
 import MasajistaDetail from './pages/MasajistaDetail.jsx';
 
@@ -11,6 +13,7 @@ export default function App() {
   return (
     <>
       <ScrollToHash />
+      <Analytics />
       <Nav />
       <main>
         <Routes>
@@ -21,6 +24,7 @@ export default function App() {
       <Footer />
       <FloatingMap />
       <WhatsAppButton />
+      <CookieConsent />
     </>
   );
 }
