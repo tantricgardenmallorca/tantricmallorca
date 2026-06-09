@@ -1,9 +1,8 @@
 // Google Analytics 4 — Measurement ID.
-// Opción A: define VITE_GA_ID en las variables de entorno del proyecto en Vercel
-//           (Production + Preview) y vuelve a desplegar.
-// Opción B: pega aquí el ID directamente como fallback: || 'G-XXXXXXXXXX'.
+// Propiedad: "The Tantric Garden — Web" (cuenta tantricgardenmallorca@gmail.com).
+// El VITE_GA_ID de Vercel tiene prioridad; si no está, se usa el ID por defecto.
 // Si queda vacío, Analytics y el banner de cookies no se cargan (no-op).
-export const GA_ID = import.meta.env.VITE_GA_ID || '';
+export const GA_ID = import.meta.env.VITE_GA_ID || 'G-PC7VN218GR';
 
 export const CONSENT_KEY = 'tg_cookie_consent'; // 'granted' | 'denied'
 
