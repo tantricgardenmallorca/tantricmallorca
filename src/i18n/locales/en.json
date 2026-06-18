@@ -23,9 +23,9 @@
   "about": {
     "eyebrow": "About Us",
     "title": "Professional Tantric Massage in Palma de Mallorca",
-    "body": "The Tantric Garden is a tantric massage centre in Palma de Mallorca, located at Carrer de la Vinyassa, 25, in the Llevant district. We offer four sensory rituals —Lotus Ritual, Double Tide, Garden of Veils and Imperial Ritual— hosted by professional masseuses trained in somatic and tantric arts. We work strictly by appointment, Monday to Sunday, 10:00 to 21:00, in an intimate space cared for in every detail.",
+    "body": "The Tantric Garden is a tantric massage centre in Palma de Mallorca, located at Carrer del Bisbe Maura, 5, in the Llevant district. We offer four sensory rituals —Lotus Ritual, Double Tide, Garden of Veils and Imperial Ritual— hosted by professional masseuses trained in somatic and tantric arts. We work strictly by appointment, Monday to Sunday, 10:00 to 21:00, in an intimate space cared for in every detail.",
     "facts": [
-      { "k": "Address", "v": "Carrer de la Vinyassa, 25, Llevant, 07005 Palma" },
+      { "k": "Address", "v": "Carrer del Bisbe Maura, 5, Llevant, 07005 Palma" },
       { "k": "Hours", "v": "Monday to Sunday · 10:00 – 21:00" },
       { "k": "Booking", "v": "By appointment only, via WhatsApp" },
       { "k": "Services", "v": "Lotus Ritual, Double Tide, Garden of Veils, Imperial Ritual" },
@@ -161,7 +161,7 @@
     "hours": "Hours",
     "hoursValue": "Monday to Sunday · 10:00 – 21:00",
     "address": "Address",
-    "addressValue": "Carrer de la Vinyassa, 25, Llevant, 07005 Palma",
+    "addressValue": "Carrer del Bisbe Maura, 5, Llevant, 07005 Palma",
     "fine1": "The Tantric Garden operates by appointment only in Mallorca, Balearic Islands. Services for adults aged 18+.",
     "fine2": "© {{year}} The Tantric Garden. All rights reserved."
   },
@@ -181,7 +181,7 @@
       },
       {
         "q": "Where is The Tantric Garden located?",
-        "a": "We are at Carrer de la Vinyassa, 25, Llevant, 07005 Palma, Balearic Islands. Open Monday to Sunday, 10:00 to 21:00, by appointment."
+        "a": "We are at Carrer del Bisbe Maura, 5, Llevant, 07005 Palma, Balearic Islands. Open Monday to Sunday, 10:00 to 21:00, by appointment."
       },
       {
         "q": "Do I need previous experience with tantric massage?",

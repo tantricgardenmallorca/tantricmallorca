@@ -1,9 +1,9 @@
 import { useTranslation } from '../i18n/useTranslation.js';
 
 const MAP_EMBED =
-  'https://maps.google.com/maps?q=39.575691,2.655830&z=16&hl=es&output=embed';
+  'https://maps.google.com/maps?q=39.5753442,2.6560398&z=16&hl=es&output=embed';
 const MAP_LINK =
-  'https://www.google.com/maps/dir/?api=1&destination=39.575691,2.655830';
+  'https://www.google.com/maps/dir/?api=1&destination=39.5753442,2.6560398';
 
 export default function FloatingMap() {
   const { t } = useTranslation();

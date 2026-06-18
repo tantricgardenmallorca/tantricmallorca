@@ -12,17 +12,17 @@ const OG_LOCALES = {
   de: 'de_DE',
 };
 
-// Coordenadas exactas del local — Carrer de la Vinyassa 25, Llevant, Palma.
+// Coordenadas exactas del local — Carrer del Bisbe Maura 5, Llevant, Palma.
 const GEO = {
-  lat: 39.575691,
-  lng: 2.655830,
+  lat: 39.5753442,
+  lng: 2.6560398,
   region: 'ES-PM',
   placename: 'Palma, Illes Balears',
 };
 
 const SAME_AS = [
   INSTAGRAM_URL,
-  'https://www.google.com/maps/place/39%C2%B034%2732.5%22N+2%C2%B039%2721.0%22E/@39.575691,2.655830,17z',
+  'https://www.google.com/maps/place/39.5753442,2.6560398/@39.5753442,2.6560398,17z',
 ];
 
 const SERVICE_CATALOG = [
@@ -62,7 +62,7 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     telephone: WHATSAPP_NUMBER,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Carrer de la Vinyassa, 25',
+      streetAddress: 'Carrer del Bisbe Maura, 5',
       addressLocality: 'Palma',
       addressRegion: 'Illes Balears',
       postalCode: '07005',

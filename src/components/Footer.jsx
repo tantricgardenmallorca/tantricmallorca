@@ -14,9 +14,9 @@ const NAV_LINKS = [
 const BRAND_EMAIL = 'tantricgardenmallorca@gmail.com';
 const PHONE_DISPLAY = '+34 604 19 93 53';
 const MAP_EMBED =
-  'https://maps.google.com/maps?q=39.575691,2.655830&z=16&hl=es&output=embed';
+  'https://maps.google.com/maps?q=39.5753442,2.6560398&z=16&hl=es&output=embed';
 const MAP_LINK =
-  'https://www.google.com/maps/dir/?api=1&destination=39.575691,2.655830';
+  'https://www.google.com/maps/dir/?api=1&destination=39.5753442,2.6560398';
 const YEAR = new Date().getFullYear();
 
 export default function Footer() {
