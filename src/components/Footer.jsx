@@ -13,10 +13,6 @@ const NAV_LINKS = [
 ];
 const BRAND_EMAIL = 'tantricgardenmallorca@gmail.com';
 const PHONE_DISPLAY = '+34 604 19 93 53';
-const MAP_EMBED =
-  'https://maps.google.com/maps?q=39.5753442,2.6560398&z=16&hl=es&output=embed';
-const MAP_LINK =
-  'https://www.google.com/maps/dir/?api=1&destination=39.5753442,2.6560398';
 const YEAR = new Date().getFullYear();
 
 export default function Footer() {
@@ -99,21 +95,6 @@ export default function Footer() {
               <p className="footer-text">{t('footer.addressValue')}</p>
             </div>
           </div>
-          <a
-            className="footer-map"
-            href={MAP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={t('footer.mapAria')}
-          >
-            <iframe
-              src={MAP_EMBED}
-              title={t('footer.mapAria')}
-              loading="lazy"
-              tabIndex={-1}
-            />
-            <span className="footer-map-cta">{t('footer.directions')} →</span>
-          </a>
         </div>
 
         <div className="footer-fine">
