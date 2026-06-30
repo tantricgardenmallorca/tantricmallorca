@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav.jsx';
 import Footer from './components/Footer.jsx';
 import WhatsAppButton from './components/WhatsAppButton.jsx';
-import FloatingMap from './components/FloatingMap.jsx';
 import ScrollToHash from './components/ScrollToHash.jsx';
 import Analytics from './components/Analytics.jsx';
 import CookieConsent from './components/CookieConsent.jsx';
@@ -22,7 +21,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-      <FloatingMap />
       <WhatsAppButton />
       <CookieConsent />
     </>
