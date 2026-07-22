@@ -10,7 +10,7 @@ const ssrDir = path.join(root, 'dist-ssr');
 const ROUTES = [
   '/',
   '/masajistas/melany',
-  '/masajistas/martina',
+  '/masajistas/antonella',
   '/masajistas/ela',
   '/masajistas/dulce-maria',
   '/masajistas/heydi',

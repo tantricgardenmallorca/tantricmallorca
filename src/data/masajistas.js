@@ -1,5 +1,6 @@
-import martina1 from '../assets/photos/ivonny-1.jpg';
-import martina2 from '../assets/photos/ivonny-2.jpg';
+import antonella1 from '../assets/photos/antonella-1.jpg';
+import antonella2 from '../assets/photos/antonella-2.jpg';
+import antonella3 from '../assets/photos/antonella-3.jpg';
 import melany1 from '../assets/photos/melany-1.jpg';
 import melany2 from '../assets/photos/melany-2.jpg';
 import melany3 from '../assets/photos/melany-3.jpg';
@@ -25,9 +26,9 @@ export const MASAJISTAS = [
     servicios: SERVICIOS_KEYS,
   },
   {
-    slug: 'martina',
-    name: 'Martina',
-    images: [martina1, martina2],
+    slug: 'antonella',
+    name: 'Antonella',
+    images: [antonella1, antonella2, antonella3],
     servicios: SERVICIOS_KEYS,
   },
   {
