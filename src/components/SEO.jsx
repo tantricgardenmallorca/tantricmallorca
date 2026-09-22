@@ -12,18 +12,14 @@ const OG_LOCALES = {
   de: 'de_DE',
 };
 
-// Coordenadas exactas del local — Carrer del Bisbe Maura 5, Llevant, Palma.
+// Sin dirección exacta ni coordenadas: el negocio se presenta solo como "Palma"
+// (igual que en Google Business Profile, donde la dirección está oculta).
 const GEO = {
-  lat: 39.5753442,
-  lng: 2.6560398,
   region: 'ES-PM',
   placename: 'Palma, Illes Balears',
 };
 
-const SAME_AS = [
-  INSTAGRAM_URL,
-  'https://www.google.com/maps/place/39.5753442,2.6560398/@39.5753442,2.6560398,17z',
-];
+const SAME_AS = [INSTAGRAM_URL];
 
 const SERVICE_CATALOG = [
   {
@@ -62,16 +58,9 @@ function buildLocalBusinessSchema({ description, ogImage }) {
     telephone: WHATSAPP_NUMBER,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Carrer del Bisbe Maura, 5',
       addressLocality: 'Palma',
       addressRegion: 'Illes Balears',
-      postalCode: '07005',
       addressCountry: 'ES',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: GEO.lat,
-      longitude: GEO.lng,
     },
     areaServed: [
       { '@type': 'City', name: 'Palma de Mallorca' },
@@ -216,8 +205,6 @@ export default function SEO({
 
       <meta name="geo.region" content={GEO.region} />
       <meta name="geo.placename" content={GEO.placename} />
-      <meta name="geo.position" content={`${GEO.lat};${GEO.lng}`} />
-      <meta name="ICBM" content={`${GEO.lat}, ${GEO.lng}`} />
 
       <meta property="og:type" content="website" />
       <meta property="og:locale" content={OG_LOCALES[locale] || locale} />
