@@ -154,7 +154,7 @@
     "privacy": "Privacy Policy",
     "cookies": "Cookie Notice",
     "directions": "Get directions",
-    "mapAria": "View location on Google Maps",
+    "mapAria": "View the area on Google Maps",
     "follow": "Follow us",
     "nav": "Navigation",
     "contact": "Contact",
@@ -162,6 +162,8 @@
     "hoursValue": "Monday to Sunday · 10:00 – 21:00",
     "address": "Address",
     "addressValue": "Palma de Mallorca",
+    "zoneLabel": "Central Palma",
+    "zoneNote": "Central Palma, next to Plaça d'Espanya. The exact address is sent by WhatsApp once your booking is confirmed.",
     "fine1": "The Tantric Garden operates by appointment only in Mallorca, Balearic Islands. Services for adults aged 18+.",
     "fine2": "© {{year}} The Tantric Garden. All rights reserved."
   },

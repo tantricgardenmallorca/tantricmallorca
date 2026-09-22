@@ -13,6 +13,11 @@ const NAV_LINKS = [
 ];
 const BRAND_EMAIL = 'tantricgardenmallorca@gmail.com';
 const PHONE_DISPLAY = '+34 604 19 93 53';
+// Mapa de ZONA, no de puerta: se centra en Plaça d'Espanya (referencia pública
+// del centro de Palma). La dirección exacta nunca se publica.
+const ZONE_QUERY = "Plaça d'Espanya, Palma";
+const MAP_EMBED = `https://maps.google.com/maps?q=${encodeURIComponent(ZONE_QUERY)}&z=15&output=embed`;
+const MAP_LINK = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(ZONE_QUERY)}`;
 const YEAR = new Date().getFullYear();
 
 export default function Footer() {
@@ -93,8 +98,28 @@ export default function Footer() {
             <div>
               <h4>{t('footer.address')}</h4>
               <p className="footer-text">{t('footer.addressValue')}</p>
+              <p className="footer-zone-note">{t('footer.zoneNote')}</p>
             </div>
           </div>
+          <a
+            className="footer-map"
+            href={MAP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={t('footer.mapAria')}
+          >
+            <iframe
+              src={MAP_EMBED}
+              title={t('footer.mapAria')}
+              loading="lazy"
+              tabIndex={-1}
+            />
+            <span className="footer-map-zone" aria-hidden="true" />
+            <span className="footer-map-label" aria-hidden="true">
+              {t('footer.zoneLabel')}
+            </span>
+            <span className="footer-map-cta">{t('footer.directions')} →</span>
+          </a>
         </div>
 
         <div className="footer-fine">

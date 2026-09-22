@@ -154,7 +154,7 @@
     "privacy": "Politique de confidentialité",
     "cookies": "Avis cookies",
     "directions": "Itinéraire",
-    "mapAria": "Voir l'emplacement sur Google Maps",
+    "mapAria": "Voir le quartier sur Google Maps",
     "follow": "Suivez-nous",
     "nav": "Navigation",
     "contact": "Contact",
@@ -162,6 +162,8 @@
     "hoursValue": "Lundi à dimanche · 10h00 – 21h00",
     "address": "Adresse",
     "addressValue": "Palma de Mallorca",
+    "zoneLabel": "Centre de Palma",
+    "zoneNote": "Centre de Palma, à côté de la Plaça d'Espanya. L'adresse exacte est envoyée par WhatsApp à la confirmation du rendez-vous.",
     "fine1": "The Tantric Garden opère sur rendez-vous à Majorque, Îles Baléares. Services réservés aux personnes majeures (18+).",
     "fine2": "© {{year}} The Tantric Garden. Tous droits réservés."
   },
